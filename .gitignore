@@ -3,3 +3,34 @@ resources
 .hugo_build.lock
 .DS_Store
 assets/jsconfig.json
+
+
+# Große Rohmedien, die nicht auf die Website gehören.
+# Liegen lokal hier, werden nie committet. GitHub blockt Dateien > 100 MB.
+_local-media/
+
+# Private Notizen, gehoeren nicht auf die Website
+_notes/
+
+# Beitraege, an denen ich noch arbeite: bleiben lokal, gehen nicht ins
+# oeffentliche GitHub-Repo. Mit "hugo server -D" trotzdem lokal sichtbar.
+content/research/zed-on-ice/
+
+# Playground-Beitraege vorerst zurueckhalten - erst durchsehen, dann
+# veroeffentlichen. Die Uebersichtsseite selbst geht mit.
+# ZUM FREIGEBEN: diese beiden Zeilen loeschen.
+content/playground/*
+!content/playground/_index.md
+
+# Hugo-Binary (57 MB, nur fuer Windows) - gehoert nicht ins Repo.
+# Der GitHub-Workflow installiert Hugo selbst.
+hugo_extended/
+
+# Theme-Klon, der gar nicht benutzt wird: das Theme kommt als Hugo Module
+# (config/_default/module.toml). Aenderungen hier haetten keine Wirkung.
+themes/
+
+# Arbeitsdateien und Notizen
+tmp/
+search.svg
+CLAUDE-md

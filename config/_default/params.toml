@@ -1,5 +1,5 @@
 # Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
+mainSections = ["research", "playground", "inspiration"]
 # Output page's full content in RSS.
 rssFullContent = true
 favicon        = "img/favicon.png"
@@ -10,7 +10,7 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
+    since      = 2026
     customText = ""
 
 [dateFormat]
@@ -18,8 +18,8 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#    emoji    = "🖖"
+    subtitle = "Ancora imparo — I turn curiosity into things."
     avatar   = "img/avatar.png"
 
 [article]
@@ -31,18 +31,19 @@ SortBy              = "default"
         enabled = true
         default = "Licensed under CC BY-NC-SA 4.0"
 
+
 [widgets]
     homepage = [
         { type = "search" },
         { type = "archives", params = { limit = 5 } },
-        { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
+#        { type = "categories", params = { limit = 10 } },
+#        { type = "tag-cloud", params = { limit = 10 } },
     ]
     page = [{ type = "toc" }]
 
-[opengraph.twitter]
-    site = ""
-    card = "summary_large_image"
+#[opengraph.twitter]
+#    site = ""
+#    card = "summary_large_image"
 
 [colorScheme]
     toggle  = true
@@ -50,8 +51,8 @@ SortBy              = "default"
 
 ## Comments
 [comments]
-    enabled  = true
-    provider = "disqus"
+    enabled  = false
+#    provider = "disqus"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.

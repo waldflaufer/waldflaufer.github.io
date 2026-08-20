@@ -1,0 +1,7 @@
+{{/*
+    Gedaempfte Zusatzzeile unter einer Angabe: Datum, Ort, Foerderer, Programm.
+    Traegt den Beleg, ohne den Blick zu binden.
+
+    Aufruf:  {{< meta >}}Defended 14 August 2026{{< /meta >}}
+*/}}
+<p class="meta">{{ .Inner | .Page.RenderString }}</p>

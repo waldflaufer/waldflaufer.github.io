@@ -1,0 +1,12 @@
+{{/*
+    Schlagwort-Reihe fuer Themen, die keine eigene Kategorie sind.
+    Aufruf:  {{< topics >}}stereo vision, camera calibration, ...{{< /topics >}}
+    Trennzeichen ist das Komma.
+*/}}
+<ul class="topic-list">
+    {{- range split .Inner "," -}}
+        {{- with trim . " \n\r\t" -}}
+            <li>{{ . }}</li>
+        {{- end -}}
+    {{- end -}}
+</ul>

@@ -1,0 +1,37 @@
+{{/*
+    Gemeinsamer Rumpf fuer Seiten ohne Blog-Moebel:
+    Titel einmal oben, optional Beschreibung, Inhaltsverzeichnis, Inhalt.
+    Kein Datum, keine Lesezeit, keine Kategorien, kein Lizenzhinweis.
+
+    Genutzt von layouts/page/single.html und layouts/research/record.html.
+*/}}
+<article class="main-article">
+    <header class="article-header">
+        <div class="article-details">
+            <div class="article-title-wrapper">
+                <h2 class="article-title">{{ .Title }}</h2>
+                {{ with .Params.description }}
+                    <h3 class="article-subtitle">{{ . }}</h3>
+                {{ end }}
+            </div>
+        </div>
+    </header>
+
+    {{ if .Scratch.Get "TOCEnabled" }}
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    {{ partial "helper/icon" "chevron-right" }}
+                    <span>{{ T "article.tableOfContents" }}</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                {{ partial "article/components/toc" . | safeHTML }}
+            </nav>
+        </details>
+    </aside>
+    {{ end }}
+
+    {{ partial "article/components/content" . }}
+</article>

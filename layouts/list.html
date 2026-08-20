@@ -1,0 +1,82 @@
+{{/*
+    Uebersichtsseite eines Bereichs (Research, Playground, Inspiration).
+
+    Unterschied zum Theme-Template: der Text aus dem jeweiligen _index.md wird
+    tatsaechlich ausgegeben. Stack zeigt sonst nur Titel, Beschreibung und die
+    Liste der Beitraege - einleitender Text ginge verloren.
+*/}}
+
+{{/* Ohne diese Body-Klasse greift Stacks komplettes Artikel-Stylesheet nicht:
+       .article-content bekaeme keine Textfarbe und waere im Dark Mode
+       dunkel auf dunkel. */}}
+{{ define "body-class" }}article-page{{ end }}
+
+{{ define "main" }}
+    <header>
+        <div class="section-card">
+            <div class="section-details">
+                <h1 class="section-term">{{ .Title }}</h1>
+                {{ with .Params.description }}
+                    <h2 class="section-description">{{ . }}</h2>
+                {{ end }}
+            </div>
+
+            {{- $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources) -}}
+            {{ if $image }}
+                <div class="section-image">
+                    <img src="{{ $image.Permalink }}"
+                        width="{{ $image.Width }}"
+                        height="{{ $image.Height }}"
+                        loading="lazy">
+                </div>
+            {{ end }}
+        </div>
+    </header>
+
+    {{/* Der eigentliche Zusatz: Inhalt aus _index.md */}}
+    {{ with .Content }}
+        <article class="main-article">
+            <section class="article-content">
+                {{ . }}
+            </section>
+        </article>
+    {{ end }}
+
+    {{- $pages := partial "helper/pages.html" . -}}
+    {{- $subsections := .Sections -}}
+
+    {{- if and (eq (len $pages) (len $subsections)) (eq $pages $subsections) -}}
+        {{- $subsections = slice -}}
+    {{- end -}}
+
+    {{- with $subsections -}}
+        <aside>
+            <h2 class="section-title">{{ T "list.subsection" (len $subsections) }}</h2>
+            <div class="subsection-list">
+                <div class="article-list--tile">
+                    {{ range . }}
+                        {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "section") }}
+                    {{ end }}
+                </div>
+            </div>
+        </aside>
+    {{- end -}}
+
+    {{ $paginator := partial "helper/paginator.html" . }}
+    {{ with $paginator }}
+        <section class="article-list--compact">
+            {{ range .Pages }}
+                {{ partial "article-list/compact" . }}
+            {{ end }}
+        </section>
+    {{ end }}
+
+    {{- partial "pagination.html" . -}}
+
+    {{ partialCached "footer/footer" . }}
+    {{ partialCached "article/components/photoswipe" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

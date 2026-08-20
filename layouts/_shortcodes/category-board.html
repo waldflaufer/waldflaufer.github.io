@@ -1,0 +1,50 @@
+{{/*
+    Uebersicht aller Kategorien, die in diesem Bereich tatsaechlich vorkommen.
+
+    Aufruf in einer _index.md:   {{< category-board >}}
+
+    Die Liste baut sich aus den Beitraegen selbst. Neue Kategorie in einem
+    neuen Beitrag heisst: sie erscheint hier automatisch. Nichts pflegen.
+
+    Farben: Stack leitet Kategoriefarben sonst aus einem Hash des Namens ab -
+    dabei bekommen verschiedene Kategorien zwangslaeufig dieselbe Farbe.
+    Hier wird der Farbkreis stattdessen gleichmaessig aufgeteilt, dadurch ist
+    jede Kachel garantiert anders. Kommt eine Kategorie dazu, verteilt es sich
+    automatisch neu.
+*/}}
+
+{{- $terms := slice -}}
+{{- range .Page.RegularPagesRecursive -}}
+    {{- $terms = $terms | append (.GetTerms "categories") -}}
+{{- end -}}
+
+{{/* Doppelte ueber die URL entfernen - uniq erkennt die Term-Objekte nicht
+     zuverlaessig als gleich. */}}
+{{- $seen := newScratch -}}
+{{- $unique := slice -}}
+{{- range $terms -}}
+    {{- if not ($seen.Get .RelPermalink) -}}
+        {{- $seen.Set .RelPermalink true -}}
+        {{- $unique = $unique | append . -}}
+    {{- end -}}
+{{- end -}}
+{{- $unique = sort $unique "LinkTitle" -}}
+{{- $total := len $unique -}}
+
+{{- with $unique -}}
+<div class="category-board">
+    {{- range $i, $term := . -}}
+        {{- $count := len (where $terms "RelPermalink" "==" $term.RelPermalink) -}}
+        {{/* Startwinkel 12 Grad, damit kein reines Rot entsteht - das wuerde
+             mit dem Burgunder der Ueberschriften kollidieren. */}}
+        {{- $hue := add 12 (div (mul $i 360) $total) -}}
+        <a class="category-board--item"
+           href="{{ $term.RelPermalink }}"
+           title="{{ $term.LinkTitle }} — {{ $count }}"
+           style="--chip-bg: hsl({{ $hue }} 62% 88%); --chip-fg: hsl({{ $hue }} 65% 24%);">
+            <span class="category-board--name">{{ $term.LinkTitle }}</span>
+            <span class="category-board--count">{{ $count }}</span>
+        </a>
+    {{- end -}}
+</div>
+{{- end -}}

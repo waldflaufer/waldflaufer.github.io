@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 21a9 9 0 1 1 9 -9c0 1.66 -1.34 3 -3 3h-1.5a2 2 0 0 0 -1.42 3.42c.37 .37 .59 .88 .59 1.41c0 .65 -.52 1.17 -1.17 1.17h-1.5z" />
+  <circle cx="7.5" cy="10.5" r="1.1" fill="currentColor" stroke="none" />
+  <circle cx="10.5" cy="7" r="1.1" fill="currentColor" stroke="none" />
+  <circle cx="15" cy="8" r="1.1" fill="currentColor" stroke="none" />
+</svg>

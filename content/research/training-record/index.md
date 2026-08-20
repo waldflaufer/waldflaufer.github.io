@@ -1,0 +1,121 @@
+---
+title: "Training & Development — Full Record"
+description: "Complete list of programmes, courses and workshops, with dates and instructors."
+date: 2026-08-20
+slug: "training-record"
+layout: "record"   # nutzt layouts/research/record.html: Belegliste statt
+                   # Blogartikel - kein Datum, keine Lesezeit, keine Lizenz.
+                   # Bewusst kein "type: page" - das wuerde die Seite aus
+                   # mainSections und damit aus der Suche nehmen.
+weight: 99    # sortiert immer ans Ende der Research-Liste, damit echte
+              # Forschungsprojekte oben stehen
+---
+
+The Research page groups this by theme. This page is the complete record, with
+instructors and dates, for anyone who needs the detail.
+
+**WU** = *Workload Units* (German: *Arbeitseinheiten, AE*), the unit used by the
+Graduate Center of TU Ilmenau. **Self-selected** marks courses I sought out
+myself rather than ones assigned within the programme.
+
+## Programmes and fellowship training
+
+**Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training** — Inria, Paris, France
+· 22–26 June 2026 · Grant writing and proposal development
+
+**Empower Masterclass Series** — Alinea, funded by EIT Culture & Creativity
+· March 2026 · online
+
+**Engage Program & Masterclass** — Alinea, funded by AMS-OSRAM AG
+· January–April 2025 and November–December 2025 · online
+
+**Rowena-Morse-Mentoring Program** — Jena, Germany
+· October 2023 – October 2024
+
+## Graduate Center, TU Ilmenau — Leadership in Science (2021–2025)
+
+### Personal development
+
+**Mein Pitch! Überzeugend präsentieren** *(online, 10 WU)*
+Cornelia Stöckmann · 25 March 2021 · Oral communication, creativity
+
+**Listen to me! Wissenschaftskommunikation in Podcasts** *(online, 9 WU)*
+Marcus Berger · 22 January 2021 · Communication & presentation · *self-selected*
+
+**Hochschulrhetorik — Stimme und Körpersprache in Präsenz- und Online-Veranstaltungen** *(in person, 8 WU)*
+Gottfried Hoffmann · 11 May 2022 · Oral communication, presence · *self-selected*
+
+**Rhetoric and Presentation Training** *(in person, 16 WU)*
+Christina Stute · 24–25 October 2022 · Oral communication
+
+**Von 0 auf Wow: Charmant – selbstsicher – eingestellt! Dein Coaching für den Traumjob** *(in person, 20 WU)*
+Cornelia Stöckmann & Erek Kühn · 19–20 November 2024 · Oral communication
+
+**Storytelling — wirksamer kommunizieren mit Geschichten** *(in person, 3.5 WU)*
+Silvia Angel · 13 March 2025 · Presentation & creativity · *self-selected*
+
+**Sicheres, souveränes & verbindliches Auftreten** *(in person, 22 WU)*
+Jan Werth · 12–13 November 2025 · Oral communication
+
+**Mutausbruch: Wie mutige Entscheidungen eine erfolgreiche Zukunft ermöglichen** *(online, 6 WU)*
+Jiri van den Kommer · 6–7 October 2025 · Self-management
+
+### Research & teaching
+
+**Statistik mit R** *(online, 20 WU)*
+Stefan Heyder · 11–12 March 2021 · Subject expertise, systematic working
+
+**Poster-Design: Wissenschaftlich und ästhetisch präsentiert** *(9 WU)*
+Marcus Berger · 23 April 2021 · Subject expertise, creativity
+
+**Auf den Punkt gebracht. Infografiken verständlich und ansprechend gestalten** *(online, 18 WU)*
+Claudia Zech · 8–9 June 2021 · Written communication
+
+**Profitipps zur wissenschaftlichen Informationsrecherche** *(online, 2 WU)*
+Milena Pfafferott · 12 May 2022 · Subject expertise
+
+**Erfolgreiche Förderanträge schreiben** *(online)*
+Wilma Simoleit · February 2023
+
+**Effektive Visualisierungen in der wissenschaftlichen Kommunikation** *(online)*
+Sandra Hähle · 9–10 December 2024 · Subject expertise
+
+**Mit Sketchnotes Gedanken, Meetings, Projekte oder Lehre strukturieren** *(in person)*
+Salea Rackwitz · 13–14 January 2025 · Subject expertise
+
+**Forschungsdaten effizient handhaben — Einführung ins Forschungsdatenmanagement** *(in person, 2 WU)*
+Jessica Rex · 13 March 2019 · Research data management, systematic working · *self-selected*
+
+**Scientific writing: Turning the blank page into a manuscript** *(online, 18 WU)*
+Dr. Carsten Rohr · 7 & 14 October 2020 · Scientific writing · *self-selected*
+
+**Denken — Forschen — Argumentieren — Kommunizieren** *(in person, 8 WU)*
+Dr. Jochen Spielmann · 19 June 2022, Bauhaus-Universität Weimar · Scientific reasoning & argumentation · *self-selected*
+
+### Management
+
+**Efficiency Skills for Scientists: Get the Same Done in Less Time** *(online, 18 WU)*
+Dr. Carsten Rohr · 22 & 29 October 2021 · Systematic working
+
+**Teamleitung und (Selbst)Führung für Ingenieur\*innen** *(online, 18 WU)*
+Dr. Christoph Sprung · 18–19 November 2021 · Leadership
+
+## Languages
+
+**English Course for advanced participants (B2 level)** *(20 WU)*
+Dr. Ievgeniia Chetvertak · weekly, winter term 2022/23, 12 October 2022 – 1 February 2023
+
+**Mitarbeiter Englisch** *(15 WU)*
+Dr. Kerstin Steinberg-Rahal · weekly, summer term 2023, 12 April – 12 July 2023
+Listening and reading exercises from the TOEIC certification exam
+
+## Further certificates
+
+**First aid course** · 2 March 2024
+
+<!--
+  NOCH ZU ERGAENZEN:
+  - Lehrauftrag / UNIKAT: aktives Mitglied, Orga, eigene Workshops konzipiert
+    und durchgefuehrt, Einfuehrungskurse. Details fuellst du spaeter.
+  - Drohnenfuehrerschein bleibt bewusst draussen (nicht oeffentlich).
+-->

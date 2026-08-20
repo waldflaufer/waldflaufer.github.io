@@ -1,7 +1,8 @@
 # Change baseurl before deploy
-baseurl      = "https://starter.stack.jimmycai.com/"
+baseurl = "https://waldflaufer.github.io"
 languageCode = "en-us"
-title        = "Hugo Theme Stack Starter"
+title        = "Christina Junger"
+#subtitel = "Ancora Imparo – Embark with me on a journey of ideas, experiments, and creative projects."
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
@@ -12,7 +13,10 @@ defaultContentLanguage = "en"
 hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
-disqusShortname = "hugo-theme-stack"
+# Kein Disqus mehr – Kommentare sind in params.toml deaktiviert.
+# (Der frühere Wert "hugo-theme-stack" war der Demo-Account des Theme-Autors.)
 
 [pagination]
-    pagerSize = 5
+    pagerSize = 6
+
+

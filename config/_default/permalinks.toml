@@ -1,3 +1,9 @@
-# Permalinks format of each content section
-post = "/p/:slug/"
+# URL-Form pro Bereich.
+#
+# research, playground und inspiration brauchen keine Regel - Hugo baut daraus
+# von selbst /research/<ordnername>/ usw. Der Ordnername ist also die URL:
+# ein Projekt umbenennen heisst, den Ordner umbenennen.
+#
+# "page" enthaelt nur noch die technischen Seiten (Archiv, Suche); die sollen
+# ohne /page/ davor erreichbar sein.
 page = "/:slug/"

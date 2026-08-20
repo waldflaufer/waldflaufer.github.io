@@ -1,24 +1,73 @@
-# Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+# Hauptnavigation und Social-Links.
+#
+# Alle Menuepunkte stehen hier - nicht mehr verteilt im Frontmatter einzelner
+# Seiten. Wer einen Punkt aendern will, aendert ihn an dieser einen Stelle.
+
+[[main]]
+identifier = "home"
+name       = "Home"
+url        = "/"
+weight     = 1
+[main.params]
+icon = "home"
+
+[[main]]
+identifier = "about"
+name       = "About"
+url        = "/about/"
+weight     = 2
+[main.params]
+icon = "user"
+
+[[main]]
+identifier = "research"
+name       = "Research"
+url        = "/research/"
+weight     = 3
+[main.params]
+icon = "research"
+
+[[main]]
+identifier = "playground"
+name       = "Playground"
+url        = "/playground/"
+weight     = 4
+[main.params]
+icon = "playground"
+
+[[main]]
+identifier = "inspiration"
+name       = "Inspiration"
+url        = "/inspiration/"
+weight     = 5
+[main.params]
+icon = "inspiration"
+
 
 [[social]]
     identifier = "github"
     name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    url        = "https://github.com/waldflaufer"
 
     [social.params]
         icon = "brand-github"
 
+
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "orcid"
+    name       = "ORCID"
+    url        = "https://orcid.org/0000-0002-5310-495X"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "brand-orcid"
+
+
+[[social]]
+	identifier = "linkedin"
+	name       = "LinkedIn"
+	url        = "https://www.linkedin.com/in/christina-junger-3a4563237/"
+
+	[social.params]
+		icon = "brand-linkedin"
+
+

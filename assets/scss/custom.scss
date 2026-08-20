@@ -1,3 +1,293 @@
 /*
     You can add your own custom styles here.
 */
+
+
+/* Buttons für Home CTA mit Pastellfarben und dunklem Text */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A8D5BA;  /* Pastellgrün */
+    color: #333333;              /* dunkles Grau */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #7FB997;  /* dunkleres Grün beim Hover */
+}
+
+.button-learning {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #91C9F7;  /* Pastellblau */
+    color: #333333;              /* dunkles Grau */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button-learning:hover {
+    background-color: #6FA5E5;  /* dunkleres Blau beim Hover */
+}
+
+.button-portfolio {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD59E;  /* Pastellorange */
+    color: #333333;              /* dunkles Grau */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button-portfolio:hover {
+    background-color: #FFB66D;  /* dunkleres Orange beim Hover */
+}
+
+
+/* ---------------------------------------------------------------------------
+   Bilderreihen als gleichmaessiges Raster
+
+   Stack baut Bilderreihen sonst "justiert": die Breite jedes Bildes haengt vom
+   Seitenverhaeltnis ab. Ein Hochformat wird dadurch zum schmalen Streifen, und
+   auf schmalen Bildschirmen quetschen sich die Bilder ineinander.
+
+   Stattdessen: gleich grosse Kacheln, die automatisch umbrechen.
+   auto-fit heisst - so viele Spalten wie passen, mindestens 160px breit.
+   --------------------------------------------------------------------------- */
+.article-content .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+
+    /* Stack laesst Bilderreihen bis an den Kartenrand laufen:
+       margin links/rechts negativ, dafuer width = 100% + 2x card-padding.
+       Beides gehoert zusammen - wer nur die Margins ueberschreibt, bekommt
+       eine zu breite Reihe, die von der Karte rechts abgeschnitten wird. */
+    margin: 1.5em calc(var(--card-padding) * -1);
+    width: calc(100% + var(--card-padding) * 2);
+
+    figure {
+        margin: 0;
+        min-width: 0;
+        /* Stack gibt jedem <figure> einen Negativ-Rand und
+           width: calc(100% + card-padding*2), damit Einzelbilder ueber den
+           Kartenrand ragen. Im Raster laesst das jedes Bild aus seiner Zelle
+           laufen - hier also zuruecknehmen. */
+        width: 100%;
+    }
+
+    .image-link,
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    img {
+        aspect-ratio: 1 / 1;   /* einheitliche Kacheln ... */
+        object-fit: cover;     /* ... Bild wird beschnitten, nicht verzerrt */
+        height: auto;
+        border-radius: var(--card-border-radius, 8px);
+    }
+
+    figcaption {
+        margin-top: 6px;
+        font-size: 0.85em;
+        text-align: center;
+    }
+}
+
+/* Steht nur ein einzelnes Bild in der Reihe, ergibt der Quadrat-Zuschnitt
+   keinen Sinn - dann das Bild in seinem eigenen Seitenverhaeltnis zeigen. */
+.article-content .gallery figure:only-child img {
+    aspect-ratio: auto;
+    object-fit: contain;
+    width: auto;
+    max-width: 100%;
+    max-height: 70vh;
+    margin-inline: auto;
+}
+
+
+/* ---------------------------------------------------------------------------
+   Kategorie-Uebersicht (Shortcode {{< category-board >}})
+
+   Baut sich aus den vorhandenen Beitraegen. Neue Kategorien erscheinen von
+   selbst - hier ist nichts zu pflegen.
+   --------------------------------------------------------------------------- */
+.article-content .category-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 1.2em 0 1.8em;
+
+    .category-board--item {
+        background-color: var(--chip-bg);
+        color: var(--chip-fg);
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 7px 14px;
+        border-radius: var(--tag-border-radius, 6px);
+        font-size: 0.9em;
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 1.2;
+        transition: transform 0.15s ease, filter 0.15s ease;
+
+        &:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.06);
+        }
+    }
+
+    .category-board--count {
+        font-weight: 400;
+        opacity: 0.75;
+        font-variant-numeric: tabular-nums;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------
+   Lesbarkeit laengerer Textseiten (Research, About)
+   --------------------------------------------------------------------------- */
+.article-content {
+
+    /* Abschnitte deutlicher voneinander absetzen */
+    h2 {
+        margin-top: 2.2em;
+        padding-top: 0.6em;
+        border-top: 1px solid var(--card-separator-color, rgba(128,128,128,0.2));
+    }
+
+    h3 {
+        margin-top: 1.8em;
+    }
+
+    /* Gedaempfte Zusatzzeile direkt unter einer Angabe:
+       Datum, Foerderer, Ort. Traegt die Belege, ohne den Blick zu binden. */
+    .meta {
+        margin-top: -0.7em;
+        margin-bottom: 1.4em;
+        font-size: 0.92em;
+        opacity: 0.72;
+        line-height: 1.5;
+    }
+
+    h3 + .meta {
+        margin-top: 0.2em;
+    }
+
+    /* Themen-Schlagworte (Shortcode {{< topics >}}) */
+    .topic-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        list-style: none;
+        margin: 0.8em 0 1.6em;
+        padding: 0;
+
+        li {
+            padding: 4px 11px;
+            border: 1px solid var(--card-separator-color, rgba(128,128,128,0.28));
+            border-radius: 999px;
+            font-size: 0.86em;
+            opacity: 0.85;
+        }
+    }
+}
+
+
+/* ---------------------------------------------------------------------------
+   Rechte Spalte (Suche, Archiv) schmaler - mehr Platz fuer den Inhalt.
+   Theme-Standard: 30% ab 1024px, 25% ab 1280px.
+   --------------------------------------------------------------------------- */
+.container.extended {
+    @media (min-width: 1024px) {
+        --right-sidebar-max-width: 24%;
+    }
+
+    @media (min-width: 1280px) {
+        --right-sidebar-max-width: 21%;
+    }
+}
+
+
+/* ===========================================================================
+   FARBE UND SCHRIFT
+
+   Alles Wichtige steckt in den Variablen ganz oben - wer die Farbe aendern
+   will, aendert genau diese Zeilen und sonst nichts.
+   =========================================================================== */
+
+:root {
+    /* Hintergrund der Seite: warmes, ruhiges Creme statt Blaugrau. */
+    --body-background: #f8f1ea;
+
+    /* Ueberschriften und Akzente: gedaempftes Burgunder. */
+    --heading-color: #7b2d3b;
+    --accent-color: #7b2d3b;
+    --accent-color-darker: #5f222d;
+    --accent-color-text: #fff;
+
+    /* Ueberschriften in einer Serifenschrift - macht den Unterschied zum
+       neutralen Blog-Look. Bewusst Systemschriften: keine Nachladung von
+       fremden Servern, also kein Datenschutzproblem und kein Ladeverzug. */
+    --heading-font-family: Georgia, "Iowan Old Style", "Palatino Linotype",
+                           "Book Antiqua", "Times New Roman", serif;
+
+    &[data-scheme="dark"] {
+        /* Im Dunkeln waermer als das Theme-Grau, damit es zum Creme passt. */
+        --body-background: #262022;
+
+        /* Burgunder waere auf dunklem Grund zu dunkel - daher ein helles Rose
+           mit demselben Farbton. */
+        --heading-color: #e8a7b0;
+        --accent-color: #e8a7b0;
+        --accent-color-darker: #f0c2c8;
+        --accent-color-text: #2a1f22;
+    }
+}
+
+/* --- Ueberschriften --------------------------------------------------- */
+
+.article-content {
+    h1, h2, h3, h4 {
+        font-family: var(--heading-font-family);
+        color: var(--heading-color);
+        letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 1.9em; line-height: 1.25; }
+    h2 { font-size: 1.45em; line-height: 1.3; }
+    h3 { font-size: 1.18em; line-height: 1.35; }
+}
+
+/* Beitragstitel in Listen und auf Einzelseiten */
+.article-title,
+.article-title a,
+.section-term {
+    font-family: var(--heading-font-family);
+    color: var(--heading-color);
+}
+
+/* Name in der Seitenleiste */
+.site-name a {
+    font-family: var(--heading-font-family);
+    color: var(--heading-color);
+}
+
+/* Im Dark Mode dieselben Farbtoene, nur umgedreht: dunkler Grund, heller Text.
+   Die Farbwerte kommen aus dem Shortcode, hier wird nur die Helligkeit
+   getauscht. */
+:root[data-scheme="dark"] .article-content .category-board .category-board--item {
+    background-color: color-mix(in srgb, var(--chip-fg) 55%, #1d1a1b);
+    color: color-mix(in srgb, var(--chip-bg) 88%, transparent);
+}

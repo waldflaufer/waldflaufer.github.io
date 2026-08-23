@@ -1,6 +1,6 @@
 # waldflaufer.github.io
 
-Persönliche Website von Christina Junger — <https://waldflaufer.github.io/>
+Persönliche Website von Christina Junger: <https://waldflaufer.github.io/>
 
 Gebaut mit [Hugo](https://gohugo.io/) und dem Theme
 [Stack](https://github.com/CaiJimmy/hugo-theme-stack) von Jimmy Cai,

@@ -43,6 +43,14 @@ weight     = 5
 [main.params]
 icon = "inspiration"
 
+[[main]]
+identifier = "skate-atlas"
+name       = "Skate Atlas"
+url        = "/skate-atlas/"
+weight     = 6
+[main.params]
+icon = "skate"
+
 
 [[social]]
     identifier = "github"

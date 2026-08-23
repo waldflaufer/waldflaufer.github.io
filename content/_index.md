@@ -50,3 +50,4 @@ If you'd like to get to know the person behind the projects, take a look here an
 <a href="/research/" class="button">Research</a>
 <a href="/playground/" class="button-portfolio">Playground</a>
 <a href="/inspiration/" class="button-learning">Inspiration</a>
+<a href="/skate-atlas/" class="button-skate">Skate Atlas</a>

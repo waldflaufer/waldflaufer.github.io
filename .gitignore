@@ -34,3 +34,6 @@ themes/
 tmp/
 search.svg
 CLAUDE-md
+
+# ffmpeg liegt neben dem Projekt, nicht darin - hier nur zur Sicherheit.
+ffmpeg/

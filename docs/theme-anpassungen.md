@@ -140,10 +140,21 @@ Das Theme lädt dort per JavaScript die Schrift „Lato" von
 IP-Adresse jedes Besuchers an Google übertragen wird. Deutsche Gerichte haben
 dazu bereits entschieden. Der Fließtext nutzt jetzt die Systemschrift.
 
-Verbleibend: die Bild-Lightbox **PhotoSwipe** kommt von `cdn.jsdelivr.net`.
-Sie wird allerdings erst geladen, wenn jemand ein Bild anklickt, nicht beim
-Seitenaufruf. Wer auch das vermeiden will, muss die Bibliothek (~50 KB) ins
-Projekt legen und `_partials/article/components/photoswipe.html` überschreiben.
+Die Bild-Lightbox **PhotoSwipe** wird aus demselben Grund ebenfalls selbst
+ausgeliefert. Sie lag ursprünglich auf `cdn.jsdelivr.net`, und zwar nicht erst
+beim Klick: zwei der drei Dateien wurden **sofort beim Seitenaufruf** geholt
+(im Browser gemessen: 11 ms und 14 ms nach dem Laden), auf 54 von 90 Seiten.
+
+Jetzt liegen die drei Dateien unter `assets/photoswipe/` (PhotoSwipe 5.4.4,
+MIT-Lizenz, zusammen ~74 KB) und `_partials/article/components/photoswipe.html`
+verweist darauf.
+
+> Bei einem Theme-Update pruefen, ob `data/external.toml` des Themes noch auf
+> Version 5.4.4 zeigt - falls nicht, die drei Dateien erneuern.
+
+**Die Seite ruft damit beim Aufruf keine fremden Server mehr auf.** Geprueft mit
+`performance.getEntriesByType("resource")`: null externe Anfragen, vor und nach
+dem Klick auf ein Bild.
 
 ---
 

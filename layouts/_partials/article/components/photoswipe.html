@@ -1,0 +1,47 @@
+{{/*
+    Bild-Lightbox.
+
+    Ueberschreibt das Theme-Partial, das PhotoSwipe von cdn.jsdelivr.net laedt.
+    Dabei wird die IP-Adresse jedes Besuchers an einen Dritten uebertragen -
+    und zwar nicht erst beim Klick: zwei der drei Dateien werden sofort beim
+    Seitenaufruf geholt (gemessen: 11 ms und 14 ms nach dem Laden).
+
+    Hier liegen die Dateien unter assets/photoswipe/ und werden von der
+    eigenen Domain ausgeliefert. PhotoSwipe 5.4.4, MIT-Lizenz.
+
+    Bei einem Theme-Update pruefen, ob die Versionsnummer in
+    data/external.toml des Themes noch 5.4.4 ist - dann ggf. die drei Dateien
+    unter assets/photoswipe/ erneuern.
+*/}}
+
+{{- $opts := dict "minify" hugo.IsProduction "format" "esm" -}}
+{{- $galleryScript := resources.Get "ts/gallery.ts" | js.Build $opts -}}
+
+{{- $style := resources.Get "photoswipe/photoswipe.css" -}}
+{{- $core := resources.Get "photoswipe/photoswipe.esm.min.js" -}}
+{{- $lightbox := resources.Get "photoswipe/photoswipe-lightbox.esm.min.js" -}}
+
+<script type="module">
+    import gallery from '{{ $galleryScript.RelPermalink }}';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("{{ $lightbox.RelPermalink }}")).default;
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = "{{ $style.RelPermalink }}";
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("{{ $core.RelPermalink }}")
+        });
+        lightbox.init();
+    }
+</script>

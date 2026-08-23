@@ -45,9 +45,11 @@
     {{- $pages := partial "helper/pages.html" . -}}
     {{- $subsections := .Sections -}}
 
-    {{- if and (eq (len $pages) (len $subsections)) (eq $pages $subsections) -}}
-        {{- $subsections = slice -}}
-    {{- end -}}
+    {{/* Besteht ein Bereich nur aus Unterbereichen (wie der Skate Atlas aus
+         Spruenge, Laufschritte, Pirouetten), zeigt das Theme sie als schlichte
+         Textliste. Hier stattdessen als Kacheln - und die Textliste entfaellt,
+         sonst stuenden sie doppelt da. */}}
+    {{- $nurUnterbereiche := and (gt (len $subsections) 0) (eq (len $pages) (len $subsections)) (eq $pages $subsections) -}}
 
     {{- with $subsections -}}
         <aside>
@@ -62,16 +64,18 @@
         </aside>
     {{- end -}}
 
-    {{ $paginator := partial "helper/paginator.html" . }}
-    {{ with $paginator }}
-        <section class="article-list--compact">
-            {{ range .Pages }}
-                {{ partial "article-list/compact" . }}
-            {{ end }}
-        </section>
-    {{ end }}
+    {{- if not $nurUnterbereiche -}}
+        {{ $paginator := partial "helper/paginator.html" . }}
+        {{ with $paginator }}
+            <section class="article-list--compact">
+                {{ range .Pages }}
+                    {{ partial "article-list/compact" . }}
+                {{ end }}
+            </section>
+        {{ end }}
 
-    {{- partial "pagination.html" . -}}
+        {{- partial "pagination.html" . -}}
+    {{- end -}}
 
     {{ partialCached "footer/footer" . }}
     {{ partialCached "article/components/photoswipe" . }}

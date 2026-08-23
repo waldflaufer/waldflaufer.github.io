@@ -1,54 +1,41 @@
 /*
-    You can add your own custom styles here.
+    Eigene Ergaenzungen zum Theme.
+    Siehe docs/theme-anpassungen.md - dort steht, welche Regel welches
+    Problem loest.
 */
 
 
-/* Buttons für Home CTA mit Pastellfarben und dunklem Text */
-.button {
+/* ---------------------------------------------------------------------------
+   Buttons auf der Startseite
+
+   Frueher stand hier fuer jede Farbe ein eigener, fast identischer Block.
+   Jetzt: eine gemeinsame Grundform, die Farbe kommt pro Klasse aus zwei
+   Variablen. Eine weitere Farbe heisst: drei Zeilen ergaenzen.
+   --------------------------------------------------------------------------- */
+.button,
+.button-learning,
+.button-portfolio,
+.button-skate {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #A8D5BA;  /* Pastellgrün */
-    color: #333333;              /* dunkles Grau */
+    margin: 0 10px 10px 0;   /* untereinander Luft, sonst kleben sie auf
+                                schmalen Bildschirmen aneinander */
+    background-color: var(--btn-bg);
+    color: #333333;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
     transition: background 0.3s;
-    margin-right: 10px;
+
+    &:hover {
+        background-color: var(--btn-bg-hover);
+    }
 }
 
-.button:hover {
-    background-color: #7FB997;  /* dunkleres Grün beim Hover */
-}
-
-.button-learning {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #91C9F7;  /* Pastellblau */
-    color: #333333;              /* dunkles Grau */
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.button-learning:hover {
-    background-color: #6FA5E5;  /* dunkleres Blau beim Hover */
-}
-
-.button-portfolio {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #FFD59E;  /* Pastellorange */
-    color: #333333;              /* dunkles Grau */
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.button-portfolio:hover {
-    background-color: #FFB66D;  /* dunkleres Orange beim Hover */
-}
+.button           { --btn-bg: #A8D5BA; --btn-bg-hover: #7FB997; }  /* Gruen  */
+.button-portfolio { --btn-bg: #FFD59E; --btn-bg-hover: #FFB66D; }  /* Orange */
+.button-learning  { --btn-bg: #91C9F7; --btn-bg-hover: #6FA5E5; }  /* Blau   */
+.button-skate     { --btn-bg: #D6CDF0; --btn-bg-hover: #B9ADE4; }  /* Flieder */
 
 
 /* ---------------------------------------------------------------------------

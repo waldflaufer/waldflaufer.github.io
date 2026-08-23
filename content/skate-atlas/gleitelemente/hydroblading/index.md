@@ -9,7 +9,7 @@ element: "glide"
 status: "learning"
 ---
 
-Einer meiner Lieblingselemente :-D
+Hydroblading gehört zu meinen Lieblingselementen, ich kann es jedoch nur in eine Richtung.
 
 ## Trockenübung
 

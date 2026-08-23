@@ -111,7 +111,7 @@ Entwürfe, Fehlersuche und die Prüfschritte vor dem Hochladen:
 
 `public/` und `resources/` (Build-Ergebnisse) · `hugo_extended/` (57 MB
 Binary) · `themes/` (ungenutzt) · `_local-media/` (unkomprimierte Originale) ·
-`_notes/`, `CLAUDE-md`, `tmp/` (privat) · einzelne Beitragsordner in Arbeit.
+`_notes/`, `tmp/` (privat) · einzelne Beitragsordner in Arbeit.
 
 Details in `.gitignore` und in [Veröffentlichen](docs/veroeffentlichen.md).
 

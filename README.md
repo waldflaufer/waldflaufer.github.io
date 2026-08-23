@@ -1,47 +1,187 @@
-<img align="right" width="150" alt="logo" src="https://user-images.githubusercontent.com/5889006/190859553-5b229b4f-c476-4cbd-928f-890f5265ca4c.png">
+# waldflaufer.github.io
 
-# Hugo Theme Stack Starter Template
+Persönliche Website von Christina Junger – <https://waldflaufer.github.io/>
 
-This is a quick start template for [Hugo theme Stack](https://github.com/CaiJimmy/hugo-theme-stack). It uses [Hugo modules](https://gohugo.io/hugo-modules/) feature to load the theme.
-
-It comes with a basic theme structure and configuration. GitHub action has been set up to deploy the theme to a public GitHub page automatically. Also, there's a cron job to update the theme automatically everyday.
-
-## Video Tutorial
-
-In case you got lost during the setup process, here's a video tutorial that setups a new Hugo site using this template, and deploys it to GitHub Pages: https://www.youtube.com/watch?v=8qDdQQ6Ifxo
-
-## Get started
-
-1. Click *Use this template*, and create your repository as `<username>.github.io` on GitHub. (You can also use a different repository name, but then the resulting website will be available at `https://<username>.github.io/<repository-name>`. )
-![Step 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
-
-2. Once the repository is created, create a GitHub codespace associated with it.
-![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
-
-3. While waiting for the codespace to be created, go to `Settings` -> `Pages` of your newly created repository, and set `Build and deployment` -> `Source` to `GitHub Actions`.
-![Change build and deployment source](https://github.com/user-attachments/assets/192459bf-25d8-441e-8029-c108d789e449)
-
-4. After the codespace is created, you can test that the site is built successfully by running `hugo server` in the terminal and see your new site in action. 
-
-5. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/config.toml` to your site's URL. For example, if your new repository is named `my-blog`, then the `baseurl` should be `https://<username>.github.io/my-blog/`.
-
-6. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page asociated with the repository.
+Gebaut mit [Hugo](https://gohugo.io/) und dem Theme
+[Stack](https://github.com/CaiJimmy/hugo-theme-stack) von Jimmy Cai,
+veröffentlicht über GitHub Pages.
 
 ---
 
-In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go and Hugo extended locally.** For more information, check official Hugo documentation: https://gohugo.io/installation/
+## Was hier wie zusammenhängt
 
-## Update theme manually
+| | |
+|---|---|
+| **Hugo** | 0.155.1 extended. Liegt lokal in `hugo_extended/` (nicht im Repo). |
+| **Theme** | Stack v4.0.0-beta.5, eingebunden als **Hugo Module** – nicht als Ordner unter `themes/`. |
+| **Deployment** | GitHub Actions, siehe `.github/workflows/deploy.yml` |
 
-Run:
+> **Wichtig zum Theme:** Es wird über `config/_default/module.toml` als Modul
+> geladen und liegt im Hugo-Cache, **nicht** im Projekt. Ein Ordner `themes/`
+> wäre wirkungslos – Änderungen dort hätten keinerlei Effekt.
+> Anpassungen gehören nach `layouts/` oder `assets/scss/custom.scss`.
+>
+> Weil das Theme ein Go-Modul ist, braucht der Build **Go**. Deshalb
+> installiert der Workflow sowohl Hugo als auch Go.
+
+---
+
+## Lokal arbeiten
 
 ```bash
-hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4
-hugo mod tidy
+./hugo_extended/hugo.exe server -D --bind 0.0.0.0 --port 1313
 ```
 
-> This starter template has been configured with `v4` version of theme. Due to the limitation of Go module, once the `v4` or up version of theme is released, you need to update the theme manually. (Modifying `config/module.toml` file)
+`-D` zeigt auch Entwürfe (`draft: true`). Die Seite läuft dann auf
+<http://localhost:1313/>.
 
-## Deploy to another static page hostings
+Produktionsbuild zum Gegenprüfen – zeigt genau das, was online ginge:
 
-Check official Hugo documentation: https://gohugo.io/host-and-deploy/
+```bash
+./hugo_extended/hugo.exe --gc --minify -d /tmp/check
+```
+
+---
+
+## Aufbau der Inhalte
+
+```
+content/
+├── _index.md              →  /                      Startseite
+├── about/index.md         →  /about/
+├── research/
+│   ├── _index.md          →  /research/             Forschung, Awards, Weiterbildung
+│   └── training-record/   →  vollständige Belegliste
+├── playground/
+│   ├── _index.md          →  /playground/           Making und Crafting
+│   └── <projekt>/index.md
+├── inspiration/
+│   ├── _index.md          →  /inspiration/          Reisen und Entdeckungen
+│   └── <eintrag>/index.md
+└── page/                  →  nur Technik: Archiv und Suche
+```
+
+**Der Ordnername ist die URL.** `content/playground/jetclay/` wird zu
+`/playground/jetclay/`. Umbenennen heißt: Ordner umbenennen.
+
+### Einen neuen Beitrag anlegen
+
+1. Ordner unter `research/`, `playground/` oder `inspiration/` anlegen –
+   kurzer Name, klein, mit Bindestrichen
+2. `index.md` hineinlegen, Bilder direkt daneben (Hugo nennt das *Page Bundle*)
+3. Bilder komprimieren → [`docs/medien-komprimieren.md`](docs/medien-komprimieren.md)
+4. Kategorien und Tags vergeben → [`docs/kategorien-und-tags.md`](docs/kategorien-und-tags.md)
+5. `draft: true`, solange du schreibst
+
+Weil die Bilder im selben Ordner liegen, ziehen sie beim Verschieben oder
+Umbenennen einfach mit.
+
+---
+
+## Eigene Erweiterungen am Theme
+
+Alles unter `layouts/` überschreibt oder ergänzt das Theme.
+
+### Templates
+
+| Datei | wozu |
+|---|---|
+| `home.html` | Startseite. Statt der Blogliste des Themes wird der Inhalt aus `content/_index.md` gerendert – ohne Artikelkopf, Datum und Lesezeit. |
+| `list.html` | Bereichsübersichten. Das Theme zeigt den Text aus `_index.md` **gar nicht** an; dieses Template holt ihn zurück. |
+| `page/single.html` | Statische Seiten ohne Blog-Möbel: kein Datum, keine Lesezeit, kein Lizenzhinweis. |
+| `research/record.html` | Dasselbe für die Belegliste der Weiterbildungen. |
+
+Beide letzteren nutzen die Partials `_partials/clean-page-main.html` und
+`_partials/toc-setup.html`, damit sie nicht auseinanderlaufen.
+
+> **Body-Klasse nicht vergessen:** Stacks komplettes Artikel-Stylesheet hängt
+> an `.article-page`. Jedes eigene Template braucht deshalb
+> `{{ define "body-class" }}article-page{{ end }}` – fehlt sie, bekommt der
+> Text keine Farbe und ist im Dark Mode unlesbar.
+
+### Shortcodes
+
+| Aufruf | wozu |
+|---|---|
+| `{{< category-board >}}` | Farbige Kacheln aller Kategorien eines Bereichs, mit Anzahl. Baut sich automatisch aus den Beiträgen. |
+| `{{< meta >}}…{{< /meta >}}` | Gedämpfte Zusatzzeile für Datum, Ort, Förderer. |
+| `{{< topics >}}a, b, c{{< /topics >}}` | Schlagwort-Reihe für Themen ohne eigene Kategorie. |
+
+### Aussehen
+
+`assets/scss/custom.scss` – Farben und Schrift stehen ganz oben als Variablen:
+
+- Hintergrund warmes Creme, im Dark Mode warmes Dunkelbraun
+- Überschriften in Burgunder, im Dark Mode helles Rose, in einer Serifenschrift
+- Bilderreihen als gleichmäßiges Raster statt der „justierten" Reihe des Themes
+- Rechte Spalte schmaler als im Theme, damit der Inhalt mehr Platz hat
+
+Kontraste sind in beiden Modi über der Barrierefreiheitsschwelle geprüft.
+
+### Datenschutz
+
+`_partials/footer/components/custom-font.html` ist **absichtlich leer**.
+Das Theme lädt dort sonst per JavaScript die Schrift „Lato" von
+`fonts.googleapis.com` – damit ginge die IP-Adresse jedes Besuchers an Google.
+
+Verbleibende externe Abhängigkeit: die Bild-Lightbox **PhotoSwipe** kommt von
+`cdn.jsdelivr.net`, wird aber erst geladen, wenn jemand ein Bild anklickt.
+
+---
+
+## Veröffentlichen
+
+```bash
+git add -A
+git status --short      # durchsehen, was drankommt
+git commit -m "…"
+git push origin main
+```
+
+Der Push löst den Workflow aus. Unter *Actions* sieht man, ob er durchläuft.
+
+**Einmalig nötig:** *Settings → Pages → Build and deployment → Source* muss auf
+**GitHub Actions** stehen. Steht dort „Deploy from a branch", baut GitHub
+stattdessen mit Jekyll und zeigt einfach diese README als Startseite an.
+
+---
+
+## Was bewusst nicht im Repo liegt
+
+Siehe `.gitignore`:
+
+| | Grund |
+|---|---|
+| `public/`, `resources/` | Build-Ergebnisse, entstehen neu |
+| `hugo_extended/` | 57 MB Windows-Binary; der Workflow installiert Hugo selbst |
+| `themes/` | ungenutzter Theme-Klon, siehe oben |
+| `_local-media/` | unkomprimierte Originale und große Rohdateien |
+| `_notes/`, `CLAUDE-md`, `tmp/` | private Notizen und Arbeitsdateien |
+| einzelne Beitragsordner | Entwürfe, die noch nicht öffentlich sollen |
+
+Der letzte Punkt ist der Trick für Beiträge in Arbeit: **`draft: true` allein
+genügt nicht**, denn dieses Repo ist öffentlich – der Entwurfstext wäre auf
+GitHub lesbar. Deshalb steht der Ordner zusätzlich in `.gitignore`. Lokal ist
+er mit `hugo server -D` trotzdem sichtbar.
+
+---
+
+## Weiterführend
+
+- [`docs/medien-komprimieren.md`](docs/medien-komprimieren.md) – Fotos und Videos verkleinern
+- [`docs/kategorien-und-tags.md`](docs/kategorien-und-tags.md) – Kategorien und Tags vergeben
+
+---
+
+## Lizenz
+
+**Texte, Fotos und Projekte: © Christina Junger.** Alle Rechte vorbehalten,
+sofern beim einzelnen Beitrag nichts anderes steht.
+
+Die Datei `LICENSE` stammt aus dem Starter-Template und lautet auf
+*MIT © Jimmy Cai* - sie gilt fuer das Template, nicht fuer meine Inhalte.
+Das Theme selbst steht unter GPL-3.0.
+
+> Noch zu entscheiden: ob die eigene Konfiguration und die eigenen Layouts
+> unter eine eigene Lizenz gestellt werden. Bis dahin bleibt die geerbte
+> Datei unveraendert stehen.

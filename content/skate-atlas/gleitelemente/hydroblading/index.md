@@ -1,8 +1,7 @@
 ---
 title: "Hydroblading"
 date: 2026-08-23
-draft: true   # Entwurf: Foto ist da, der Text fehlt noch.
-              # Zum Veroeffentlichen: draft auf false setzen.
+draft: false
 image: "cover.jpg"
 categories:
 tags:

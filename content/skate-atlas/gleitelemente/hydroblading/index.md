@@ -1,6 +1,6 @@
 ---
 title: "Hydroblading"
-date: 2026-08-23
+date: 2024-03-27
 draft: false
 image: "cover.jpg"
 categories:

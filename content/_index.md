@@ -17,7 +17,7 @@ From woodworking and embroidery to science experiments and sports challenges, he
 This is a place where creativity, engineering, and artistry collide.
 
 
-![Jetclay](jetclay.jpg) ![Embroidery](embroidery.jpg) ![Drawing](drawing.jpg) ![Travelling](travelling.jpg) 
+![Jetclay](jetclay.jpg) ![Embroidery](embroidery.jpg) ![Drawing](drawing.jpg) ![Animatronics](animatronics.jpg) 
 
 Alongside my artistic projects, I also dive into technical experiments, like my ongoing work with **stereo vision and robotics** (ZED on Ice), FPGA-based imaging systems, and autonomous robot calibration.  
 

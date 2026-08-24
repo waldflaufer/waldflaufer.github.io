@@ -23,7 +23,7 @@ Project description
     String / cord (for finger movement)
 
 
-![PhD Hat for Yan][hat.jpg]
+![The finished hat: a tendon-driven robotic hand, a calibration target and a lot of Club-Mate.](hat.jpg)
 
 ## Danksagung
 

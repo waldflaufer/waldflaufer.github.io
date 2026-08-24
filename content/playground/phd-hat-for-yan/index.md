@@ -16,7 +16,7 @@ Big congratulations to my colleague Dr. Yan Zhang!
 
 Project description
 
-    Flexible robotic hand made of TPU  
+    [Flexible robotic hand made](https://www.thingiverse.com/thing:1980129) of TPU  
     5× Servo motors: SG92R
     Microcontroller board (for controlling the servos)  
     Screws (for assembly)  

@@ -21,9 +21,6 @@ violin-making apprenticeship and never sent them, and built a tenor ukulele
 years later instead. I loved the ice as a child and took up figure skating at
 30. Whatever I pick up tends to come back.
 
-And what I work out along the way lands here, rather than in scattered
-notebooks. A treasure chest I keep filling.
-
 {{< facets >}}
 {{< facet title="Research" href="/research/" >}}
 How precise does a measurement have to be before someone can rely on it?
@@ -41,6 +38,16 @@ resin, wet apple wood that made the whole workshop smell of apples.
 wrote so nobody has to start from zero.
 {{< /facet >}}
 {{< /facets >}}
+
+And what I work out along the way lands here, rather than in scattered
+notebooks. A treasure chest I keep filling. A few things from it:
+
+{{< finds >}}
+{{< find page="/playground/building-tenor-ukulele" >}}The instrument I built instead of the apprenticeship I never applied for.{{< /find >}}
+{{< find page="/playground/phd-hat-for-yan" >}}A doctoral hat with a tendon-driven robotic hand, five servos and a calibration target. I built it for a colleague. Later, they built mine.{{< /find >}}
+{{< find page="/playground/jetclay" >}}Printing with clay, where I ended up calibrating the material like a measurement.{{< /find >}}
+{{< find page="/playground/figure-skating-dress" >}}A competition needs a dress. I own a sewing machine, so: why not.{{< /find >}}
+{{< /finds >}}
 
 And the name? It started as a typo. The
 [whole story](/about/#why-waldflaufer) is on the about page.

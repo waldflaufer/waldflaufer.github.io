@@ -1,0 +1,23 @@
+{{/*
+    Ein Fundstueck. Holt Titel und Titelbild aus dem Zielbeitrag selbst,
+    damit hier nichts doppelt gepflegt werden muss.
+
+    {{< find page="/playground/jetclay" >}}Kurzer Haken.{{< /find >}}
+
+    Fehlt der Beitrag (etwa weil er in .gitignore steht und im oeffentlichen
+    Build nicht existiert), wird das Fundstueck stillschweigend uebersprungen -
+    sonst wuerde der Build abbrechen.
+*/}}
+{{- $p := site.GetPage (.Get "page") -}}
+{{- with $p -}}
+    {{- $img := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources) -}}
+    <a class="find" href="{{ .RelPermalink }}">
+        {{- with $img -}}
+            <span class="find--image">
+                <img src="{{ .Permalink }}" loading="lazy" alt="">
+            </span>
+        {{- end -}}
+        <span class="find--title">{{ .Title }}</span>
+        <span class="find--text">{{ $.Inner | $.Page.RenderString }}</span>
+    </a>
+{{- end -}}

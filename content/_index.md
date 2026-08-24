@@ -7,40 +7,38 @@ date: 2026-01-31
 
 {{< roles >}}Researcher · Maker · Mentor · Musician{{< /roles >}}
 
-Good to have you here.
+Good to have you here. I think in pictures, and the fastest way for me to
+understand something is to build it.
 
-I think in pictures. When something catches my interest, reading about it is
-never quite enough. I want to build one and find out how it really works.
+At work, that turned into teaching machines to see: stereo cameras that
+measure in three dimensions, accurate enough for a person to work next to a
+robot and trust it. I defended my PhD on that at TU Ilmenau in August 2026,
+after starting out in biomedical engineering. I love that work, and I am just
+as happy at a wood lathe.
 
-For the last years that meant teaching machines to see: stereo camera systems
-that measure in three dimensions, and a robot-assisted calibration that keeps
-them accurate enough for a person to stand next to the machine and trust it.
-I defended my PhD on that at TU Ilmenau in August 2026, after starting out in
-biomedical engineering.
+Because here is the thing: I do not let go of things. I had the papers for a
+violin-making apprenticeship and never sent them, and built a tenor ukulele
+years later instead. I loved the ice as a child and took up figure skating at
+30. Whatever I pick up tends to come back.
 
-I love that work. And I am just as happy at a wood lathe, because the two have
-more in common than you would think. A tenor ukulele, printed clay, an atlas of figure
-skating patterns: different materials, same method.
-
-So step into my world: from handcrafted ukuleles to embroidery and drawings to
-engineering experiments. Explore, and maybe you will find something that sparks
-your own next project.
-
-(And if you are wondering where the name comes from: it started as a typo.
-The [whole story](/about/#why-waldflaufer) is on the about page.)
+And what I work out along the way lands here, rather than in scattered
+notebooks. A treasure chest I keep filling.
 
 {{< facets >}}
 {{< facet title="Research" href="/research/" >}}
-PhD in computer vision, TU Ilmenau. Stereo systems, robot-assisted
-calibration, human–robot collaboration, running on FPGA, Jetson Nano,
-Raspberry Pi and the Arduino MKR Vidor 4000. Publications on ORCID.
+How precise does a measurement have to be before someone can rely on it?
+That question became my PhD at TU Ilmenau: stereo cameras that calibrate
+themselves so a robot can work next to a person, on FPGA, Jetson Nano and
+Raspberry Pi. Publications on ORCID.
 {{< /facet >}}
 {{< facet title="Playground" href="/playground/" >}}
-A collection of things I've tried, made, learned and enjoyed along the way.
+The violin-making apprenticeship I never applied for, finished years late as a
+tenor ukulele. And everything I have built since: printed clay, embroidery,
+resin, wet apple wood that made the whole workshop smell of apples.
 {{< /facet >}}
 {{< facet title="Teaching & Supervision" href="/research/teaching-and-supervision/" >}}
-UNIKAT makerspace since 2017, CyberMentor, supervising students, and workshops
-I designed and ran myself.
+21 supervised theses, the UNIKAT makerspace, CyberMentor, and workshops I
+wrote so nobody has to start from zero.
 {{< /facet >}}
 {{< /facets >}}
 

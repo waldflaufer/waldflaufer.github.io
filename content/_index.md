@@ -42,6 +42,9 @@ wrote so nobody has to start from zero.
 {{< /facet >}}
 {{< /facets >}}
 
+And the name? It started as a typo. The
+[whole story](/about/#why-waldflaufer) is on the about page.
+
 ![After my doctoral defence at TU Ilmenau, August 2026, with Martin and Yan, who built my doctoral hat.](me-phd.jpg)
 
 ## How I learn

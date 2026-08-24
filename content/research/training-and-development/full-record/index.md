@@ -1,17 +1,15 @@
 ---
-title: "Training & Development — Full Record"
+title: "Training & Development: Full Record"
 description: "Complete list of programmes, courses and workshops, with dates and instructors."
 date: 2026-08-20
-slug: "training-record"
 layout: "record"   # nutzt layouts/research/record.html: Belegliste statt
                    # Blogartikel - kein Datum, keine Lesezeit, keine Lizenz.
                    # Bewusst kein "type: page" - das wuerde die Seite aus
                    # mainSections und damit aus der Suche nehmen.
-weight: 99    # sortiert immer ans Ende der Research-Liste, damit echte
-              # Forschungsprojekte oben stehen
+weight: 99
 ---
 
-The Research page groups this by theme. This page is the complete record, with
+The overview page groups this by theme. This page is the complete record, with
 instructors and dates, for anyone who needs the detail.
 
 **WU** = *Workload Units* (German: *Arbeitseinheiten, AE*), the unit used by the
@@ -20,19 +18,19 @@ myself rather than ones assigned within the programme.
 
 ## Programmes and fellowship training
 
-**Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training** — Inria, Paris, France
+**Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training**, Inria, Paris, France
 · 22–26 June 2026 · Grant writing and proposal development
 
-**Empower Masterclass Series** — Alinea, funded by EIT Culture & Creativity
+**Empower Masterclass Series**, Alinea, funded by EIT Culture & Creativity
 · March 2026 · online
 
-**Engage Program & Masterclass** — Alinea, funded by AMS-OSRAM AG
+**Engage Program & Masterclass**, Alinea, funded by AMS-OSRAM AG
 · January–April 2025 and November–December 2025 · online
 
-**Rowena-Morse-Mentoring Program** — Jena, Germany
+**Rowena-Morse-Mentoring Program**, Jena, Germany
 · October 2023 – October 2024
 
-## Graduate Center, TU Ilmenau — Leadership in Science (2021–2025)
+## Graduate Center, TU Ilmenau: Leadership in Science (2021–2025)
 
 ### Personal development
 
@@ -42,7 +40,7 @@ Cornelia Stöckmann · 25 March 2021 · Oral communication, creativity
 **Listen to me! Wissenschaftskommunikation in Podcasts** *(online, 9 WU)*
 Marcus Berger · 22 January 2021 · Communication & presentation · *self-selected*
 
-**Hochschulrhetorik — Stimme und Körpersprache in Präsenz- und Online-Veranstaltungen** *(in person, 8 WU)*
+**Hochschulrhetorik - Stimme und Körpersprache in Präsenz- und Online-Veranstaltungen** *(in person, 8 WU)*
 Gottfried Hoffmann · 11 May 2022 · Oral communication, presence · *self-selected*
 
 **Rhetoric and Presentation Training** *(in person, 16 WU)*
@@ -51,7 +49,7 @@ Christina Stute · 24–25 October 2022 · Oral communication
 **Von 0 auf Wow: Charmant – selbstsicher – eingestellt! Dein Coaching für den Traumjob** *(in person, 20 WU)*
 Cornelia Stöckmann & Erek Kühn · 19–20 November 2024 · Oral communication
 
-**Storytelling — wirksamer kommunizieren mit Geschichten** *(in person, 3.5 WU)*
+**Storytelling - wirksamer kommunizieren mit Geschichten** *(in person, 3.5 WU)*
 Silvia Angel · 13 March 2025 · Presentation & creativity · *self-selected*
 
 **Sicheres, souveränes & verbindliches Auftreten** *(in person, 22 WU)*
@@ -83,13 +81,13 @@ Sandra Hähle · 9–10 December 2024 · Subject expertise
 **Mit Sketchnotes Gedanken, Meetings, Projekte oder Lehre strukturieren** *(in person)*
 Salea Rackwitz · 13–14 January 2025 · Subject expertise
 
-**Forschungsdaten effizient handhaben — Einführung ins Forschungsdatenmanagement** *(in person, 2 WU)*
+**Forschungsdaten effizient handhaben - Einführung ins Forschungsdatenmanagement** *(in person, 2 WU)*
 Jessica Rex · 13 March 2019 · Research data management, systematic working · *self-selected*
 
 **Scientific writing: Turning the blank page into a manuscript** *(online, 18 WU)*
 Dr. Carsten Rohr · 7 & 14 October 2020 · Scientific writing · *self-selected*
 
-**Denken — Forschen — Argumentieren — Kommunizieren** *(in person, 8 WU)*
+**Denken - Forschen - Argumentieren - Kommunizieren** *(in person, 8 WU)*
 Dr. Jochen Spielmann · 19 June 2022, Bauhaus-Universität Weimar · Scientific reasoning & argumentation · *self-selected*
 
 ### Management

@@ -34,4 +34,4 @@ A huge thank you to [AG MFK](https://mfk-kollektiv.de/) (Musikalische Freiluftku
 
 And a big thanks to [Marco Quade](https://malschule-weimar.de/wir/dozenten/marco-quade/) from Erfurt for sharing his skills, experience, and passion for graffiti with us.
 
-It was a lot of fun — and definitely something I would like to try again.
+It was a lot of fun, and definitely something I would like to try again.

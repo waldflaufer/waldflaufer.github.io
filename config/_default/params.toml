@@ -19,7 +19,7 @@ SortBy              = "default"
 
 [sidebar]
 #    emoji    = "🖖"
-    subtitle = "Ancora imparo — I turn curiosity into things."
+    subtitle = "Ancora imparo – I turn curiosity into things."
     avatar   = "img/avatar.png"
 
 [article]

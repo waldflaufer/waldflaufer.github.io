@@ -1,6 +1,6 @@
 ---
 title: "Inspiration"
-description: "What catches my attention when I'm out — science, craft, art, places, people."
+description: "What catches my attention when I’m out: science, craft, art, places, people."
 ---
 
 Not a travel guide. These are the things that stuck with me while I was

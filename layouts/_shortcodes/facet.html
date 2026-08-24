@@ -1,0 +1,11 @@
+{{/*
+    Eine Karte in der Reihe.
+
+    {{< facet title="Research" href="/research/" >}}
+    Beschreibungstext, Markdown erlaubt.
+    {{< /facet >}}
+*/}}
+<a class="facet" href="{{ .Get "href" }}">
+    <span class="facet--title">{{ .Get "title" }}</span>
+    <span class="facet--text">{{ .Inner | .Page.RenderString }}</span>
+</a>

@@ -1,0 +1,11 @@
+{{/*
+    Rollen-Zeile direkt unter der Ueberschrift der Startseite.
+
+    {{< roles >}}Researcher · Maker · Mentor · Musician{{< /roles >}}
+
+    Bewusst nur Substantive und bewusst wenige: Sobald Rollen, Taetigkeiten
+    und Themen gemischt werden ("Researcher | Teaching | Musik"), wirkt die
+    Zeile beliebig. Und ab etwa fuenf Eintraegen liest sie sich als
+    Hobbyliste statt als Profil.
+*/}}
+<p class="roles">{{ .Inner | .Page.RenderString }}</p>

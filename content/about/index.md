@@ -7,7 +7,7 @@ type: "page"   # nutzt layouts/page/single.html - kein Datum, keine Lesezeit,
                # nicht in mainSections steht.
 ---
 
-Hi, I'm Christina Junger — good to see you here.
+Hi, I’m Christina Junger. Good to see you here.
 
 When something catches my interest, I start. Then I work out how to do it
 properly: technical books, a lot of video, a lot of trying it myself, and
@@ -26,19 +26,19 @@ have time to write down what I make and what I learn along the way.
 
 ![Me, early on.](me-young.jpg) ![Practising through the pandemic.](violin-during-corona.jpg)
 
-**Music.** Violin since 1997, viola since 2007 — I still play in orchestras.
+**Music.** Violin since 1997, viola since 2007, and I still play in orchestras.
 Piano from 2008 to 2011, made possible by the Fritz und Lieselotte Hopf
 Foundation (SPN Nördlingen).
 
 I started elsewhere, but the [Rieser Musikschule](https://riesermusikschule.de/)
 is where I spent the longest: lessons, music theory, and several orchestras.
-And greetings to the Chaos Orchester of Christian Möwes — I get invited every
+And greetings to the Chaos Orchester of Christian Möwes. I get invited every
 year, and whenever I can make the time, I play.
 
 **Water.** I swam competitively when I was younger. Open water is where I feel
 freest, and I like water enough that it eventually put me in a kayak too.
 
-**Movement.** Taekwondo on and off since around 2001 — I keep coming back to it
+**Movement.** Taekwondo on and off since around 2001, and I keep coming back to it
 for the elegance and the footwork. I took up figure skating at 30 with
 [EC Ilmenau](https://eci-eiskunstlauf.de/website/). And for a few years now
 contemporary dance, which turns out to help the skating more than I expected.
@@ -52,7 +52,7 @@ contemporary dance, which turns out to help the skating more than I expected.
 
 * Bachelor and Master Degree in Biomedical Engineering, TU Ilmenau, Germany
 * Research Assistant, TU Ilmenau, 2017–2025
-* PhD in Industrial Image Processing, TU Ilmenau — defended 14 August 2026
+* PhD in Industrial Image Processing, TU Ilmenau, defended 14 August 2026
 * Key Projects: FPGA stereo vision, autonomous robot calibration, transparent object detection with AI
 
 More on all of that, including awards and training, on the [Research](/research/) page.
@@ -67,8 +67,8 @@ More on all of that, including awards and training, on the [Research](/research/
 ### Volunteer Work
 
 * Youth officer (*Jugendwart*) at my figure skating club, EC Ilmenau
-* [CyberMentor](https://www.cybermentor.de/) — mentoring for schoolgirls in STEM
-* [UNIKAT](https://unikat-ilmenau.de/wiki/), the makerspace at TU Ilmenau — active member, organisation, own workshops and introductory courses
+* [CyberMentor](https://www.cybermentor.de/), mentoring for schoolgirls in STEM
+* [UNIKAT](https://unikat-ilmenau.de/wiki/), the makerspace at TU Ilmenau: active member, organisation, own workshops and introductory courses
 
 <!--
   NOCH OFFEN:

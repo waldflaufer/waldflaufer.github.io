@@ -56,7 +56,7 @@ And the name? It started as a typo. The
 
 ## How I learn
 
-Technical books, a lot of video, a lot of trying it myself, and talking to
+Technical books, open-source projects, a lot of video, a lot of trying it myself, and talking to
 people who already know more. That applies to a stereo camera and to a wood
 lathe in about equal measure. The wood lathe just forgives less.
 

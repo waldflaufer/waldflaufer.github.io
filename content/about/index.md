@@ -43,7 +43,7 @@ for the elegance and the footwork. I took up figure skating at 30 with
 [EC Ilmenau](https://eci-eiskunstlauf.de/website/). And for a few years now
 contemporary dance, which turns out to help the skating more than I expected.
 
-![As the mascot of the Muskelkatter.](mascot-muskelkatter.jpg) ![Behind the costume.](mascot-behind-the-costume.jpg) ![In Erfurt.](erfurt-kika-boat.jpg)
+![As the mascot of the Muskelkater.](mascot-muskelkater.jpg) ![Behind the costume.](mascot-behind-the-costume.jpg) ![In Erfurt.](erfurt-kika-boat.jpg)
 
 **Also:** board games, and a camera that comes along most places.
 

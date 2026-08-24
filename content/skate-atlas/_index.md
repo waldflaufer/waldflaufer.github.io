@@ -24,6 +24,17 @@ Nur bleibt auf dem Eis nicht alles hängen, was einem gesagt wird. Trainer müss
 
 Sich aufnehmen hilft auch sehr gut (da sieht man direkt seine schlechte Haltung oder die nicht ganz gestreckten Beine).
 
+<!--
+  
+Kreisjugendspiele 2026 und Vereinsmeisterschaft ab 18 Jahre > Programm 6 D > 152
+
+     magick mogrify ... -auto-orient -strip -resize "2000x2000>" -quality 82
+
+     ![Vor der Kuer beim den Vereinsmeisterschaft (Programm 6 D). Foto: mpC](wettkampf-2026.jpg)
+[mpC](https://www.mpc-fotodesign.de/)
+
+-->
+
 ![Meine Schuhe.](meineSchuhe.jpg)
 
 ## Woher das Wissen kommt

@@ -11,6 +11,10 @@ and Industrial Image Processing. Most of the topics circle around the same
 questions as my own work: stereo vision, calibration, 3D reconstruction and
 what happens when a surface refuses to cooperate.
 
+In total: **21 supervised works** between 2017 and 2025 - nine master’s theses,
+six project seminars and media projects, two seminar papers and four student
+assistants.
+
 Titles are given in the language they were written in.
 
 ## Master's theses

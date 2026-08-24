@@ -3,11 +3,11 @@ title: "Research"
 description: "Computer vision, stereo systems, calibration, human–robot collaboration."
 ---
 
-I teach cameras to see in three dimensions.
+Everything below comes from one question: how precise does a measurement have
+to be before someone can rely on it?
 
-More precisely: I build stereo camera systems and the robot-assisted
-calibration that keeps them accurate, and I work on the question of how good
-3D data has to be before a robot and a person can safely share a workspace.
+Four areas follow that line: where it started, what the thesis was about, the
+students I supervised along the way, and what I learned outside the lab.
 
 ## Awards
 

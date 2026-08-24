@@ -64,7 +64,8 @@ Cell classification using deep neural network for autofocusing application
 Modulare Konzeptentwicklung für einen multimodalen 3D-Messplatz mit diversen
 Sensoren
 
-**Muhammad Arsalan, Muhammad-Hassan Mahmood**
+**Muhammad Arsalan, Muhammad-Hassan Mahmood** · Media Technology
+
 {{< meta >}}2021–2022{{< /meta >}}
 Investigations into the usability of Adaptive Aggregation Network for creation
 and training with own data set

@@ -11,6 +11,8 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
+[Project description](https://fablab.tu-ilmenau.de/#!/projects/3d-printing-with-ceramic-jetclay)
+
 For more details, check out the [Clay 3D-Printing Workshop](https://unikat-ilmenau.de/wiki/books/projekte/page/jetclay-workshop).
 
 

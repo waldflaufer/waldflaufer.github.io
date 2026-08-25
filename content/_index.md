@@ -26,8 +26,8 @@ rather than in scattered notebooks. A treasure chest I keep filling. A few
 things from it:
 
 {{< finds >}}
-{{< find page="/playground/building-tenor-ukulele" >}}Built with a professional luthier looking over my shoulder.{{< /find >}}
-{{< find page="/playground/phd-hat-for-yan" >}}A doctoral hat with a tendon-driven robotic hand, five servos and a calibration target. I built it for a colleague. Later, they built mine.{{< /find >}}
+{{< find page="/playground/building-tenor-ukulele" >}}Built with a professional violin maker looking over my shoulder.{{< /find >}}
+{{< find page="/playground/phd-hat-for-yan" >}}A doctoral hat with a tendon-driven robotic hand, five servos and a calibration target. We built it for a colleague. Later, they built mine.{{< /find >}}
 {{< find page="/playground/jetclay" >}}Printing with clay, where I ended up calibrating the material like a measurement.{{< /find >}}
 {{< find page="/playground/figure-skating-dress" >}}A competition needs a dress. I own a sewing machine, so: why not.{{< /find >}}
 {{< /finds >}}

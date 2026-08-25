@@ -5,7 +5,7 @@ date: 2026-01-31
 
 # Welcome to Waldflaufer’s World!
 
-{{< roles >}}Researcher · Maker · Mentor · Musician{{< /roles >}}
+{{< roles >}}I turn curiosity into Things  |  Researcher · Maker · Mentor · Musician{{< /roles >}}
 
 Good to have you here.
 

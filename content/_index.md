@@ -7,10 +7,9 @@ date: 2026-01-31
 
 {{< roles >}}Researcher · Maker · Mentor · Musician{{< /roles >}}
 
-Good to have you here. I think in pictures, and the fastest way for me to
-understand something is to build it.
+Good to have you here.
 
-At work, that turned into teaching machines to see: stereo cameras that
+At work, I teach machines to see: stereo cameras that
 measure in three dimensions, accurate enough for a person to work next to a
 robot and trust it. I defended my PhD on that at TU Ilmenau in August 2026,
 after starting out in biomedical engineering. I love that work, and I am just
@@ -20,6 +19,11 @@ Because here is the thing: I do not let go of things. I had the papers for a
 violin-making apprenticeship and never sent them, and built a tenor ukulele
 years later instead. I loved the ice as a child and took up figure skating at
 30. Whatever I pick up tends to come back.
+
+Step into my world, where creativity knows no boundaries! Whether I am crafting
+ukuleles, experimenting with new engineering projects, or expressing myself
+through art and music, this space is where all my passions come together.
+Explore and get inspired for my next creative adventure!
 
 {{< facets >}}
 {{< facet title="Research" href="/research/" >}}

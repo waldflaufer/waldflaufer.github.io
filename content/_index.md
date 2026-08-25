@@ -20,11 +20,6 @@ violin-making apprenticeship and never sent them, and built a tenor ukulele
 years later instead. I loved the ice as a child and took up figure skating at
 30. Whatever I pick up tends to come back.
 
-Step into my world, where creativity knows no boundaries! Whether I am crafting
-ukuleles, experimenting with new engineering projects, or expressing myself
-through art and music, this space is where all my passions come together.
-Explore and get inspired for my next creative adventure!
-
 {{< facets >}}
 {{< facet title="Research" href="/research/" >}}
 How precise does a measurement have to be before someone can rely on it?

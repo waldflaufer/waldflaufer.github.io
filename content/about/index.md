@@ -51,7 +51,7 @@ contemporary dance, which turns out to help the skating more than I expected.
 ### Professional Background
 
 * Bachelor and Master Degree in Biomedical Engineering, TU Ilmenau, Germany
-* Research Assistant, TU Ilmenau, 2017–2025
+* Research Fellow, TU Ilmenau, 2017–2025
 * PhD in Industrial Image Processing, TU Ilmenau, defended 14 August 2026
 * Key Projects: FPGA stereo vision, autonomous robot calibration, transparent object detection with AI
 

@@ -18,17 +18,33 @@ myself rather than ones assigned within the programme.
 
 ## Programmes and fellowship training
 
+**1st SUNRISE PhD & Young Researchers Academy: Advancing Research Careers in Health & Digital Health and Digitalisation & Industry 4.0** (Erasmus+ Blended Intensive Programme), European University Cyprus, Nicosia
+· 21–25 September 2026, plus a virtual session on 11 September · upcoming · 3 ECTS · with SUNRISE Alliance partner universities including TU Ilmenau · workshops on research proposal writing, academic writing and pitching entrepreneurial ideas, alongside poster presentations, networking and cultural activities
+
 **Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training**, Inria, Paris, France
 · 22–26 June 2026 · Grant writing and proposal development
 
 **Empower Masterclass Series**, Alinea, funded by EIT Culture & Creativity
-· March 2026 · online
+· completed Thursday, 2 April 2026 · online · 25 training hours ·
+Self-Awareness & Self-Efficacy, Motivation & Perseverance, Mobilising
+Resources, Financial & Economic Literacy, Mobilising Others
 
 **Engage Program & Masterclass**, Alinea, funded by AMS-OSRAM AG
 · January–April 2025 and November–December 2025 · online
 
 **Rowena-Morse-Mentoring Program**, Jena, Germany
 · October 2023 – October 2024
+
+**2nd International Summer School Symposium Sense.Enable.SPITSE** and
+**Summer School for Young Researchers**, St. Petersburg Electrotechnical
+University "LETI", St Petersburg, Russia
+· 22–26 June and 29 June – 3 July 2015 · two consecutive weeks, as a participant ·
+SPITSE: a strategic partnership between the engineering faculties of
+TU Ilmenau, St. Petersburg Electrotechnical University, and Moscow Power
+Engineering Institute
+
+<!-- TODO: Thema/Inhalt der beiden Summer Schools noch ergaenzen. -->
+
 
 ## Graduate Center, TU Ilmenau: Leadership in Science (2021–2025)
 

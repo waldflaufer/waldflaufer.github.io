@@ -11,8 +11,8 @@ and Industrial Image Processing. Most of the topics circle around the same
 questions as my own work: stereo vision, calibration, 3D reconstruction and
 what happens when a surface refuses to cooperate.
 
-In total: **21 supervised works** between 2017 and 2025 - nine master’s theses,
-six project seminars and media projects, two seminar papers and four student
+In total: **22 supervised works** between 2017 and 2025 - nine master’s theses,
+six project seminars and media projects, two seminar papers and five student
 assistants.
 
 Titles are given in the language they were written in.
@@ -107,6 +107,10 @@ Eingesetzte Technologien zur Raumerfassung bei robotergestützten Prozessen
 **Andy Flores** · Mechatronics
 {{< meta >}}2023–2024{{< /meta >}}
 Autonomous robot-based calibration of a multi-view stereo system (RB-Kairos)
+
+**Helmi-Aurora Takala**
+{{< meta >}}January–February 2024{{< /meta >}}
+Support in implementing a multimodal measurement setup.
 
 **Jakob Pflugbeil** · Mechanical Engineering
 {{< meta >}}2023{{< /meta >}}

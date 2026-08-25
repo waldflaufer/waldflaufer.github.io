@@ -74,8 +74,8 @@ Wet apple wood, which you are not supposed to use - the workshop smelled of
 apples for days. Printed clay, embroidery, resin, and whatever comes next.
 {{< /facet >}}
 {{< facet title="Teaching & Supervision" href="/research/teaching-and-supervision/" >}}
-21 supervised theses, the UNIKAT makerspace, CyberMentor, and workshops I
-wrote so nobody has to start from zero.
+22 supervised theses, projects and seminars, the UNIKAT makerspace,
+CyberMentor, and workshops I wrote so nobody has to start from zero.
 {{< /facet >}}
 {{< /facets >}}
 

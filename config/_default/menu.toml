@@ -56,26 +56,40 @@ icon = "skate"
     identifier = "github"
     name       = "GitHub"
     url        = "https://github.com/waldflaufer"
+    weight     = 1
 
     [social.params]
         icon = "brand-github"
 
 
 [[social]]
+	identifier = "linkedin"
+	name       = "LinkedIn"
+	url        = "https://www.linkedin.com/in/christina-junger-3a4563237/"
+	weight     = 2
+
+	[social.params]
+		icon = "brand-linkedin"
+
+
+[[social]]
     identifier = "orcid"
     name       = "ORCID"
     url        = "https://orcid.org/0000-0002-5310-495X"
+    weight     = 3
 
     [social.params]
         icon = "brand-orcid"
 
 
 [[social]]
-	identifier = "linkedin"
-	name       = "LinkedIn"
-	url        = "https://www.linkedin.com/in/christina-junger-3a4563237/"
+    identifier = "discord"
+    name       = "Discord: christina5358"
+    url        = "#"
+    weight     = 4
 
-	[social.params]
-		icon = "brand-linkedin"
+    [social.params]
+        icon     = "brand-discord"
+        newTab   = false
 
 

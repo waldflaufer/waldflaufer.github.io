@@ -1,6 +1,8 @@
 ---
 title: "Pirouetten"
 description: "Einlaufen, Position finden, Achse halten."
+image: "harness-cover.jpg"
+weight: 3
 ---
 
 Alle Pirouetten, die ich bisher gelernt habe... [in Arbeit]

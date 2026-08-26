@@ -35,7 +35,7 @@ Kreisjugendspiele 2026 und Vereinsmeisterschaft ab 18 Jahre > Programm 6 D > 152
 
 -->
 
-![Meine Schuhe.](meineSchuhe.jpg)
+<img src="meineSchuhe.jpg" alt="Meine Schuhe." style="width:280px;height:auto;">
 
 ## Woher das Wissen kommt
 

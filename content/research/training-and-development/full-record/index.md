@@ -24,6 +24,25 @@ myself rather than ones assigned within the programme.
 **Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training**, Inria, Paris, France
 · 22–26 June 2026 · Grant writing and proposal development
 
+> The workshop's structure for a grant introduction, in full. It works like an
+> hourglass: start broad, narrow down to a sharp focus, then broaden out again
+> ("find the dragon and kill the dragon" on the [overview page](../) - find the
+> dragon is the problem, the solution is the great Japanese sword, and killing
+> the dragon is the world made better):
+>
+> 1. Say clearly what you want, and why you need the funding.
+> 2. Set the stage - who cares, why it matters, what has already been tried:
+>    - (A) Get the reviewer interested at the outset.
+>    - (B) Identify the importance, stress the need.
+>    - (C) Summarise the state of the art.
+>    - (D) Describe technical challenges to solving the problem, and potential benefits.
+> 3. State the theme - your solution, and why it is credible:
+>    - (E) Describe the concept and establish credibility.
+>    - (F) Describe your project's fundamental purpose.
+> 4. Create a vision - what the field looks like once the problem is solved:
+>    - (G) Show how your work will advance the field.
+>    - (H) Envision the world with the problem solved.
+
 **Empower Masterclass Series**, Alinea, funded by EIT Culture & Creativity
 · completed Thursday, 2 April 2026 · online · 25 training hours ·
 Self-Awareness & Self-Efficacy, Motivation & Perseverance, Mobilising

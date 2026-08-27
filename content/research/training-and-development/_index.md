@@ -61,8 +61,7 @@ University, and Moscow Power Engineering Institute.
 {{< meta >}}June 2026 · grant writing and proposal development{{< /meta >}}
 
 At the grant-writing workshop, two things stuck with me from Paolo, my CPPI
-(*Chargé de Partenariat et de Projets d'Innovation*) at Inria, the French
-national research institute for computer science and mathematics: **tell it
+(*Chargé de Partenariat et de Projets d'Innovation*) at National Institute for Research in Digital Science and Technology (Inria, France): **tell it
 as a story, and structure the introduction like an hourglass - open wide to
 catch a reviewer who is often not a specialist and reading your proposal
 unpaid and tired, narrow down to the exact problem and solution, then widen

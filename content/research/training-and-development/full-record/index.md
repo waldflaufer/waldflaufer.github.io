@@ -18,12 +18,40 @@ myself rather than ones assigned within the programme.
 
 ## Programmes and fellowship training
 
-**1st SUNRISE PhD & Young Researchers Academy: Advancing Research Careers in Health & Digital Health and Digitalisation & Industry 4.0** (Erasmus+ Blended Intensive Programme), European University Cyprus, Nicosia
+<img src="../logo/CZS.webp" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">**[CZS STEM Impact School](https://wissenschaft-im-dialog.de/projekte/czs-stem-impact-school/)**, Refugio Berlin, Lenaustraße 3, Berlin, Germany
+· 1–2 September 2026, both days starting 10:00 · upcoming · in German · for
+researchers interested in the societal impact of their work who want to
+learn effective science communication tools · a free place funded by the
+Carl-Zeiss-Stiftung as a CZS alumna, travel and accommodation self-funded ·
+organised by Wissenschaft im Dialog
+
+> **The Five Modules**
+>
+> Building toward an individual communication and impact plan, with a focus
+> on inter- and transdisciplinary exchange between participants:
+>
+> 1. **Impact** - the concept of societal impact, and science communication
+>    as a path towards it.
+> 2. **Outcome** - defining target audiences, and the effects wanted within
+>    them.
+> 3. **Output** - an overview of science communication formats, choosing
+>    one, and getting feedback from peers and speakers.
+> 4. **Input** - putting the chosen format into practice: translating the
+>    research for the target audience, and quality indicators for good
+>    science communication.
+> 5. **Quality** - reflecting on the quality of science communication, then
+>    presenting and discussing the impact plans, with a look ahead.
+>
+> [Accompanying open educational resources](https://wissenschaft-im-dialog.de/programme/academy/open-educational-resources/)
+
+<img src="../logo/sunrise-tuil.png" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">**1st SUNRISE PhD & Young Researchers Academy: Advancing Research Careers in Health & Digital Health and Digitalisation & Industry 4.0** (Erasmus+ Blended Intensive Programme), European University Cyprus, Nicosia
 · 21–25 September 2026, plus a virtual session on 11 September · upcoming · 3 ECTS · with SUNRISE Alliance partner universities including TU Ilmenau · workshops on research proposal writing, academic writing and pitching entrepreneurial ideas, alongside poster presentations, networking and cultural activities
 
-**Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training**, Inria, Paris, France Matthieu Py & Paolo Simonelli
+<img src="../logo/inria.png" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">**Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training**, Inria, Paris, France Matthieu Py & Paolo Simonelli
 · 22–26 June 2026 · Grant writing and proposal development
 
+> **Key Takeaways: The A-H Structure**
+>
 > The workshop's structure for a grant introduction, in full. It works like an
 > hourglass: start broad, narrow down to a sharp focus, then broaden out again
 > ("find the dragon and kill the dragon" on the [overview page](../) - find the
@@ -43,18 +71,33 @@ myself rather than ones assigned within the programme.
 >    - (G) Show how your work will advance the field.
 >    - (H) Envision the world with the problem solved.
 
-**Empower Masterclass Series**, Alinea, funded by EIT Culture & Creativity, Helen Fullen
+> **Key Takeaways: Practical Checklist**
+>
+> From the same workshop:
+>
+> - Use clear, self-explanatory figures and tables - they should work on
+>   their own, without needing the surrounding text to explain them.
+> - Use accessible language and avoid acronyms - a reviewer outside your
+>   field should not have to decode your text.
+> - Keep every page self-contained - no cross-references to other pages,
+>   all information, including sources, right there for the reader.
+> - Make objectives SMART - specific, measurable, achievable, relevant,
+>   time-bound.
+> - Read the EU proposal template closely and follow it exactly - down to
+>   every single verb.
+
+<img src="../logo/empower-icon.jpg" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">**Empower Masterclass Series**, Alinea, funded by EIT Culture & Creativity, Helen Fullen
 · completed Thursday, 2 April 2026 · online · 25 training hours ·
 Self-Awareness & Self-Efficacy, Motivation & Perseverance, Mobilising
 Resources, Financial & Economic Literacy, Mobilising Others
 
-**Engage Program & Masterclass**, Alinea, funded by AMS-OSRAM AG, Helen Fullen
+<img src="../engage.jpg" alt="" style="height:24px;width:24px;object-fit:cover;border-radius:3px;vertical-align:middle;margin-right:0.6em;">**Engage Program & Masterclass**, Alinea, funded by AMS-OSRAM AG, Helen Fullen
 · January–April 2025 and November–December 2025 · online
 
-**Rowena-Morse-Mentoring Program**, Jena, Germany
+<img src="../logo/tkg-rmmp-marke-rgb.png" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">**Rowena-Morse-Mentoring Program**, Jena, Germany
 · October 2023 – October 2024
 
-**2nd International Summer School Symposium Sense.Enable.SPITSE** and
+<span style="display:inline-block;width:24px;height:24px;background:var(--btn-bg);border-radius:3px;vertical-align:middle;margin-right:0.6em;"></span>**2nd International Summer School Symposium Sense.Enable.SPITSE** and
 **Summer School for Young Researchers**, St. Petersburg Electrotechnical
 University "LETI", St Petersburg, Russia
 · 22–26 June and 29 June – 3 July 2015 · two consecutive weeks, as a participant ·
@@ -66,6 +109,8 @@ Engineering Institute
 
 
 ## Graduate Center, TU Ilmenau: Leadership in Science (2021–2025)
+
+<img src="../logo/graduate-center-tuil.webp" alt="Graduate Center, TU Ilmenau" style="height:24px;width:auto;vertical-align:middle;margin-bottom:0.6em;">
 
 ### Personal development
 
@@ -134,6 +179,8 @@ Dr. Carsten Rohr · 22 & 29 October 2021 · Systematic working
 Dr. Christoph Sprung · 18–19 November 2021 · Leadership
 
 ## Languages
+
+<img src="../logo/tuil.png" alt="TU Ilmenau" style="height:24px;width:auto;vertical-align:middle;margin-bottom:0.6em;">
 
 **English Course for advanced participants (B2 level)** *(20 WU)*
 Dr. Ievgeniia Chetvertak · weekly, winter term 2022/23, 12 October 2022 – 1 February 2023

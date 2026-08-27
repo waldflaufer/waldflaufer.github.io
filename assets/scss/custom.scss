@@ -396,3 +396,29 @@
         margin-top: 3px;
     }
 }
+
+/* ---------------------------------------------------------------------------
+   Unterseiten-Kacheln (z.B. Research -> PhD/Biomedizintechnik/..., oder
+   Skate Atlas -> Laufschritte/Pirouetten/...)
+
+   Stack zeigt diese Kacheln standardmaessig als horizontal scrollbaren
+   Streifen fester Breite (overflow-x: auto, width: max-content). Je nach
+   Fensterbreite oder Browser-Zoom passen dann nicht alle Kacheln in die
+   sichtbare Breite - und ohne auffaelligen Scroll-Hinweis wirken die
+   uebrigen einfach wie verschwunden. Hier stattdessen: umbrechen, damit
+   immer alle Kacheln sichtbar sind, notfalls in mehreren Zeilen.
+   --------------------------------------------------------------------------- */
+.subsection-list {
+    overflow-x: visible;
+    margin-left: 0;
+
+    .article-list--tile {
+        flex-wrap: wrap;
+        width: auto;
+        padding: 8px 0 34px 0;
+
+        article {
+            margin-bottom: 20px;
+        }
+    }
+}

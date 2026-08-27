@@ -46,10 +46,11 @@ University, and Moscow Power Engineering Institute.
 
 <!-- HIER: 2-3 Saetze von dir. -->
 
-<img src="logo/CZS.webp" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">**Upcoming, 1-2 September 2026:** the CZS STEM Impact School, Berlin -
-a training programme for researchers in STEM fields, organised by
-[Wissenschaft im Dialog](https://wissenschaft-im-dialog.de/projekte/czs-stem-impact-school/)
-and funded by the Carl-Zeiss-Stiftung. I am a Carl-Zeiss-Stiftung alumna,
+<img src="logo/CZS.webp" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">**Upcoming, 1-2 September 2026:** **CZS STEM Impact School**, Berlin, organised by
+[Wissenschaft im Dialog](https://wissenschaft-im-dialog.de/projekte/czs-stem-impact-school/), funded by Carl-Zeiss-Stiftung · Training programme for researchers in STEM fields
+
+Training on translating research into societal Impact through structured Impact pathways, target-group-specific Outcomes, communication strategies and Evaluation.  
+I am a Carl-Zeiss-Stiftung alumna,
 and they are providing my place free of charge. Thank you so much for the
 opportunity! There are already [accompanying materials](https://wissenschaft-im-dialog.de/programme/academy/open-educational-resources/)
 from earlier rounds of the school.

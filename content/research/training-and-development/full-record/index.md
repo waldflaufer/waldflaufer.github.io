@@ -21,7 +21,7 @@ myself rather than ones assigned within the programme.
 **1st SUNRISE PhD & Young Researchers Academy: Advancing Research Careers in Health & Digital Health and Digitalisation & Industry 4.0** (Erasmus+ Blended Intensive Programme), European University Cyprus, Nicosia
 · 21–25 September 2026, plus a virtual session on 11 September · upcoming · 3 ECTS · with SUNRISE Alliance partner universities including TU Ilmenau · workshops on research proposal writing, academic writing and pitching entrepreneurial ideas, alongside poster presentations, networking and cultural activities
 
-**Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training**, Inria, Paris, France
+**Marie Skłodowska-Curie Actions Postdoctoral Fellowship Training**, Inria, Paris, France Matthieu Py & Paolo Simonelli
 · 22–26 June 2026 · Grant writing and proposal development
 
 > The workshop's structure for a grant introduction, in full. It works like an
@@ -43,12 +43,12 @@ myself rather than ones assigned within the programme.
 >    - (G) Show how your work will advance the field.
 >    - (H) Envision the world with the problem solved.
 
-**Empower Masterclass Series**, Alinea, funded by EIT Culture & Creativity
+**Empower Masterclass Series**, Alinea, funded by EIT Culture & Creativity, Helen Fullen
 · completed Thursday, 2 April 2026 · online · 25 training hours ·
 Self-Awareness & Self-Efficacy, Motivation & Perseverance, Mobilising
 Resources, Financial & Economic Literacy, Mobilising Others
 
-**Engage Program & Masterclass**, Alinea, funded by AMS-OSRAM AG
+**Engage Program & Masterclass**, Alinea, funded by AMS-OSRAM AG, Helen Fullen
 · January–April 2025 and November–December 2025 · online
 
 **Rowena-Morse-Mentoring Program**, Jena, Germany

@@ -19,8 +19,8 @@ for:
 
 {{< meta >}}2021–2025{{< /meta >}}
 
-<span style="display:inline-block;width:24px;height:24px;background:var(--btn-bg);border-radius:3px;vertical-align:middle;margin-right:0.6em;"></span>**2015, as a student:** two consecutive summer schools at St. Petersburg
-Electrotechnical University "LETI", St Petersburg, Russia - the 2nd
+<span style="display:inline-block;width:24px;height:24px;background:var(--btn-bg);border-radius:3px;vertical-align:middle;margin-right:0.6em;"></span>**2015, as a student:** two consecutive **summer schools at St. Petersburg
+Electrotechnical University "LETI"**, St Petersburg, Russia - the 2nd
 International Summer School Symposium Sense.Enable.SPITSE and the Summer
 School for Young Researchers, part of a strategic partnership between the
 engineering faculties of TU Ilmenau, St. Petersburg Electrotechnical
@@ -98,10 +98,10 @@ really well. Getting to know the other participants was enriching too.
 > 1. Academic writing and grant writing are two different things - a grant
 >    proposal has to sell the work, not just report it
 > 2. Say clearly what you want, and why you need the funding
-> 3. Then write the introduction like an hourglass:
->    - Set the stage - who cares, why it matters, what has already been tried
->    - State the theme - your solution, and why it is credible
->    - Create a vision - what the field looks like once the problem is solved
+> 3. Since then, before I write an introduction, I think: find the dragon
+>    first (who cares, what has already been tried), then bring the sword
+>    (your solution), then kill the dragon (what the field looks like once
+>    it is solved) :-)
 > 4. Write it as a good story - the reviewer may not be from your field, and
 >    is possibly reading it tired, in the evening or on the go
 > 5. Catch the evaluators in the very first sentence - a strong hook buys

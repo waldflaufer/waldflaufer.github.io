@@ -19,23 +19,18 @@ dieser Stelle, Patrick!
 Irgendwann reichten mir die Runden nicht mehr. Ich wollte wissen, wie ein
 Schritt richtig geht und wie ein Sprung funktioniert. Also bin ich in den Verein eingetreten. Ich startete damals mit Vivi und Mary :-D.
 
+
+<img src="before-competition-2026.jpg" alt="Meine Schuhe." style="width:280px;height:auto;">
+<img src="meineSchuhe.jpg" alt="Meine Schuhe." style="width:280px;height:auto;">
+
+_Link: Kürz vor meiner Kür bei den Vereinsmeisterschaft 2026 (Programm 6 D), Ilmenau. Das war mein vierter Wettkampf. Rechts: Meine Schlittschuhe._
+
+
 Eiskunstlauf ist Ausdauer, Dehnung, Ausdruck, Physik, Rhythmus und Tanz gleichzeitig. Selten verlangt etwas so viele Dinge auf einmal. Ein toller Kontrast zur Arbeit.
 Nur bleibt auf dem Eis nicht alles hängen, was einem gesagt wird. Trainer müssen sich oft wiederholen und brauchen sehr viel Geduld... Man bekommt was erklärt, denkt sich: klingt logisch, und dann vergisst man beim Ausführen die Hälfte ^^. Also habe ich angefangen mitzuschreiben: Tipps, Fehler, Laufbilder, Skizzen von der Bahn. Zunächst auf Papier, jetzt hier...
 
 Sich aufnehmen hilft auch sehr gut (da sieht man direkt seine schlechte Haltung oder die nicht ganz gestreckten Beine).
 
-<!--
-  
-Kreisjugendspiele 2026 und Vereinsmeisterschaft ab 18 Jahre > Programm 6 D > 152
-
-     magick mogrify ... -auto-orient -strip -resize "2000x2000>" -quality 82
-
-     ![Vor der Kuer beim den Vereinsmeisterschaft (Programm 6 D). Foto: mpC](wettkampf-2026.jpg)
-[mpC](https://www.mpc-fotodesign.de/)
-
--->
-
-<img src="meineSchuhe.jpg" alt="Meine Schuhe." style="width:280px;height:auto;">
 
 ## Woher das Wissen kommt
 

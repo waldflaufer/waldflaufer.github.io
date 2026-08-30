@@ -14,7 +14,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
 Big congratulations to my colleague Dr. Yan Zhang!  
 
 
-Project description
+**Materials:**
 
 - [Flexible robotic hand](https://www.thingiverse.com/thing:1980129), printed in TPU
 - 5× servo motors: SG92R
@@ -25,7 +25,7 @@ Project description
 
 ![The finished hat: a tendon-driven robotic hand, a calibration target and a lot of Club-Mate.](hat.jpg)
 
-## Danksagung
+## Thanks
 
 And thanks to my colleague Martin for building the hat with me.
 Thanks to Benjamin, who printed the hand in TPU for us.

@@ -22,7 +22,7 @@ Check out the brilliant work by **Will Cogley** and his open-source project:
 * [ε-SERIES ANIMATRONIC EYE MECHANISM ](https://nmrobots.com/pages/designs?srsltid=AfmBOor-VaaLSR_XMn1oNcqJ3oq8t-oHenFn2HBeo4NEVaoAvshQVuPl)
 * [Animatronischer Augenmechanismus ε3.2](https://makerworld.com/de/models/1184807-animatronic-eye-mechanism-e3-2#profileId-1195681)
 
-I even backed the original [Kickstarter projekt](https://www.kickstarter.com/projects/willcogley/coglet-open-source-3d-printable-robot-companion-kit?lang=de). I’m already excited to see how this will fit into my next robot build.
+I even backed the original [Kickstarter projekt](https://www.kickstarter.com/projects/willcogley/coglet-open-source-3d-printable-robot-companion-kit?lang=de). I’m already excited to see how this will fit into my next robot build. -> [GitHub: Coglet](https://github.com/will-cogley/Coglet)
 
 So… what’s next?
 I’ve got big plans for this little eye system — why I’m modifying it, how I’ll integrate it with vision, and what kind of robot it’s going to live in. Stay tuned — the full story is coming soon!

@@ -8,6 +8,7 @@ categories:
     - Robotics
     - 3D Printing
     - Electronics
+    - Perception
 tags:
     - project
 weight: 12

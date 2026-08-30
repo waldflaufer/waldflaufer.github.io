@@ -1,7 +1,7 @@
 ---
 title: Animatronic Eye Mechanism
-description: ...
-date: 2026-08-30 00:00:00+0000
+description: I found this animatronic eye mechanism and knew right away this is exactly what I need for my child-partner interaction project.
+date: 2026-08-16 00:00:00+0000
 image: cover.jpg
 draft: false
 categories:
@@ -15,7 +15,7 @@ weight: 12
 
 ## Animatronic Eye Mechanism: My New Robot Obsession
 
-I just stumbled upon this incredible animatronic eye mechanism and as a robot enthusiast and someone who lives in the world of computer vision and cameras, I was instantly hooked. Honestly, I felt like a kid at Christmas. 😄
+I stumbled upon this incredible animatronic eye mechanism and as a robot enthusiast and someone who lives in the world of computer vision and cameras, I was instantly hooked. Honestly, I felt like a kid at Christmas. 😄
 
 Check out the brilliant work by **Will Cogley** and his open-source project:
 

@@ -39,3 +39,18 @@ I’ve got big plans for this little eye system — why I’m modifying it, how 
 > _Note: The gear on the front motor is slipping, which prevents smooth eye movement (gaze). I’ll be fixing that — stay tuned for the upgrade!_
 
 #OpenSourceRobot #AnimatronicEyes #Robotics #3DPrinting #Coglet #ComputerVision #DIYRobot #MakerCommunity
+
+## Parts List
+
+- CogNog PCB - See [project files](https://github.com/will-cogley/Coglet)
+- Grove Vision AI V2 plus camera and adaptor
+- Microphone
+- 6 Pin PicoBlade Connector
+- Speaker
+- USB input to JST XH (3A recommended)
+- ESP Camera - OV3660
+- ESP Cam Ribbon Cable
+- ESP Cam Adaptor
+- 9x Servos - These are tight, MG90s may also work
+- Realistic Camera-Compatible Eyes
+

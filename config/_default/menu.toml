@@ -13,7 +13,7 @@ icon = "home"
 
 [[main]]
 identifier = "about"
-name       = "About"
+name       = "About Me"
 url        = "/about/"
 weight     = 2
 [main.params]
@@ -21,7 +21,7 @@ icon = "user"
 
 [[main]]
 identifier = "research"
-name       = "Research"
+name       = "Career"
 url        = "/research/"
 weight     = 3
 [main.params]

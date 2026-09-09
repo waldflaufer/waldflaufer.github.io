@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Career"
 description: "Biomedical engineering, computer vision, stereo systems, calibration, human–robot collaboration."
 ---
 

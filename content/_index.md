@@ -63,7 +63,7 @@ And the name? It started as a typo. The
 Now that you know the person, here is where each part of this actually lives:
 
 {{< facets >}}
-{{< facet title="Research" href="/research/" >}}
+{{< facet title="Career" href="/research/" >}}
 How precise does a measurement have to be before someone can rely on it?
 That question became my PhD at TU Ilmenau: stereo cameras that calibrate
 themselves so a robot can work next to a person, on FPGA, Jetson Nano and

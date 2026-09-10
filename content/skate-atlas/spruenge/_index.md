@@ -43,6 +43,8 @@ Alle Sprünge, die ich bisher gelernt habe:
 
 ## Rehsprung
 
+Schausprung ohne ISU-Kürzel.
+
 --------------------------------------------------------------------------------
 
 ## LUTZ

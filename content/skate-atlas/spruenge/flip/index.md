@@ -9,6 +9,7 @@ element: "jump"
 status: "learning"
 ---
 
+
 ## Was ist es
 Zackensprung mit einer Umdrehung. ISU-Definition: Zackensprung, Absprung von der Rückwärts-Innenkante, Landung auf der Rückwärts-Außenkante des anderen Fußes. Kürzel: F. Mechanisch ein Salchow mit Zackenhilfe (früher "Toe Salchow"). Zwilling des Lutz (gleiche Zacke, Außenkante). Schwerer als Rittberger, Salchow und Toeloop, weil die Innenkante instabil ist. Herkunft unklar, möglicherweise Bruce Mapes.
 

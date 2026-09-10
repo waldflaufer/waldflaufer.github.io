@@ -40,3 +40,5 @@ Franka und Birgit, und von den anderen Übenden auf dem Eis.
 
 Dazu die tollen Videos von [Kseniya & Oleg](https://www.youtube.com/@kseniyaOleg),
 die genau zeigen, wann und wo man im Schuh Druck aufbauen muss.
+
+Und die tolle Dokumentation der [Adults Sakte Too](https://adultsskatetoo.com/blogs/guides)!

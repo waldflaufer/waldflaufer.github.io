@@ -34,11 +34,11 @@ things from it:
 
 ![Me, handcrafting a ukulele using a drawknife.](me.jpg) ![Building a tenor ukulele.](me-crafting.jpg)
 
-## How I learn
+## The treasure chest
 
-Technical books, open-source projects, a lot of video, a lot of trying it myself, and talking to
-people who already know more. That applies to a stereo camera and to a wood
-lathe in about equal measure. The wood lathe just forgives less.
+I like learning new things, and I do not stop at reading about them. Technical books, open-source projects, a lot of video, a lot of trying it myself, and talking to people who already know more.
+
+What ends up in the chest is not books. It is methods: a way to glue without clamps, a drop test for clay consistency, a calibration routine, a lasered line where a chisel would be slower. Each project adds a few. And the fuller the chest, the more often two things connect that do not belong to the same field. That is what I am good at, and it is why I keep filling it.
 
 ## What drives me
 

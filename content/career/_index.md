@@ -37,16 +37,28 @@ students I supervised along the way, and what I learned outside the lab.
 
 Same question, from a hospital scanner to a welding cell.
 
-## Awards
+## Awards and funding
 
 **Zukunftsgestalter:innen in Bibliotheken**
 
-{{< meta >}}De Gruyter Publishing, 2024 · as part of a project team at TU Ilmenau{{< /meta >}}
+{{< meta >}}De Gruyter Publishing, 2024 · awarded to a TU Ilmenau project team{{< /meta >}}
 
-**Journal Imaging Travel Award**
+{{< meta >}}Two prizes are awarded each year, to individuals or groups, for innovative projects in libraries and in knowledge transfer. As a UNIKAT member I co-established the TextilLab, the textile makerspace for upcycling and sustainability in the university library, and designed and ran its introductory courses on the various machines for a year.{{< /meta >}}
 
-{{< meta >}}2024 · for travel to SPIE, Maryland, USA{{< /meta >}}
+**Journal of Imaging Travel Award**
+
+{{< meta >}}MDPI, 2024 · used for travel to SPIE, Maryland, USA{{< /meta >}}
+
+{{< meta >}}Two awards are given per year, open to PhD students, research fellows and postdoctoral fellows.{{< /meta >}}
 
 **Orbbec Best Student Paper Award**
 
-{{< meta >}}2022 · for a publication presented at SPIE, Orlando, USA{{< /meta >}}
+{{< meta >}}SPIE Dimensional Optical Metrology and Inspection for Practical Applications XI, Orlando, 2022{{< /meta >}}
+
+{{< meta >}}The conference gives two paper awards, one open and one for students; this was the student award.{{< /meta >}}
+
+**Funding for hands-on science lessons and project days**
+
+{{< meta >}}Frank Hirschvogel Stiftung, 2018 · Germany{{< /meta >}}
+
+{{< meta >}}I wrote the application that funded the UNIKAT makerspace's CO2 laser cutter and table saw. The foundation funds educational formats for young people and not equipment, so the application was built around a pupil workshop on a 3D-illusion lamp (laser cutting, electronics, wooden base).{{< /meta >}}

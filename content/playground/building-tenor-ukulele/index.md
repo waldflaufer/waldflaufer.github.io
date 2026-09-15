@@ -16,10 +16,8 @@ weight: 8       # You can add weight to some posts to override the default sorti
 ## Motivation
 
 I once wanted to learn violin making. I had the application papers and never sent them.
-
 Then I met Alexandra and Pascal, two professional violin makers. I do not need another violin right now, so I asked: why not build a ukulele instead? It takes less time than a violin, and it is a proper way into the craft and into the world of instrument making.
-
-I did not want to do everything the traditional way, though. So the CO₂ laser cutter comes into play at one point. I show exactly where below.
+The build itself is traditional throughout: hand planes, scrapers, fretsaw and wooden bars for gluing. The one exception is the decoration. For that I used a CO₂ laser cutter, and I show exactly where below.
 
 ## The build
 

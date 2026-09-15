@@ -22,7 +22,7 @@ icon = "user"
 [[main]]
 identifier = "research"
 name       = "Career"
-url        = "/research/"
+url        = "/career/"
 weight     = 3
 [main.params]
 icon = "research"

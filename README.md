@@ -42,7 +42,7 @@ Gegenprobe — zeigt genau das, was online ginge:
 content/
 ├── _index.md              →  /                 Startseite
 ├── about/index.md         →  /about/
-├── research/              →  /research/        Forschung, Awards, Weiterbildung
+├── career/                →  /career/          Forschung, Awards, Weiterbildung
 ├── playground/            →  /playground/      Making und Crafting
 ├── inspiration/           →  /inspiration/     Reisen und Entdeckungen
 └── page/                  →  nur Technik: Archiv und Suche
@@ -53,7 +53,7 @@ content/
 
 ### Neuen Beitrag anlegen
 
-1. Ordner unter `research/`, `playground/` oder `inspiration/` anlegen —
+1. Ordner unter `career/`, `playground/` oder `inspiration/` anlegen —
    kurz, klein, mit Bindestrichen
 2. `index.md` hineinlegen, **Bilder direkt daneben** (Hugo nennt das *Page Bundle*)
 3. Bilder komprimieren → [Medien komprimieren](docs/medien-komprimieren.md)

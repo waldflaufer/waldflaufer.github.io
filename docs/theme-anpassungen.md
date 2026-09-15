@@ -33,7 +33,7 @@ Anpassungen gehören nach:
 | `home.html` | Stack rendert auf `/` sonst die paginierte Blogliste. Hier kommt stattdessen der Inhalt aus `content/_index.md` – ohne Artikelkopf, Datum, Lesezeit und Lizenzhinweis. |
 | `list.html` | Stacks Bereichsübersicht zeigt den Text aus `_index.md` **überhaupt nicht** an, nur Titel und Beitragsliste. Dieses Template gibt ihn aus. Außerdem entfernt: die Zeilen „SECTION" und „n PAGES". |
 | `page/single.html` | Statische Seiten ohne Blog-Möbel: kein Datum, keine Lesezeit, kein Lizenzhinweis, Titel genau einmal. |
-| `research/record.html` | Dasselbe für die Belegliste der Weiterbildungen. |
+| `career/record.html` | Dasselbe für die Belegliste der Weiterbildungen. |
 
 Die letzten beiden bauen auf den gemeinsamen Partials
 `_partials/clean-page-main.html` (Aufbau) und `_partials/toc-setup.html`

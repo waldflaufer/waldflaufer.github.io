@@ -2,7 +2,7 @@
 title: "Training & Development: Full Record"
 description: "Complete list of programmes, courses and workshops, with dates and instructors."
 date: 2026-08-20
-layout: "record"   # nutzt layouts/research/record.html: Belegliste statt
+layout: "record"   # nutzt layouts/career/record.html: Belegliste statt
                    # Blogartikel - kein Datum, keine Lesezeit, keine Lizenz.
                    # Bewusst kein "type: page" - das wuerde die Seite aus
                    # mainSections und damit aus der Suche nehmen.

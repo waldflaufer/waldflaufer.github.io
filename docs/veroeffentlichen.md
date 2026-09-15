@@ -81,7 +81,7 @@ draft: true
 und in `.gitignore`:
 
 ```
-content/research/mein-entwurf/
+content/career/mein-entwurf/
 ```
 
 Lokal bleibt der Beitrag mit `hugo server -D` trotzdem vollständig sichtbar.

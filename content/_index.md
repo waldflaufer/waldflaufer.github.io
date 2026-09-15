@@ -63,7 +63,7 @@ And the name? It started as a typo. The
 Now that you know the person, here is where each part of this actually lives:
 
 {{< facets >}}
-{{< facet title="Career" href="/research/" >}}
+{{< facet title="Career" href="/career/" >}}
 How precise does a measurement have to be before someone can rely on it?
 That question became my PhD at TU Ilmenau: stereo cameras that calibrate
 themselves so a robot can work next to a person, on FPGA, Jetson Nano and
@@ -73,7 +73,7 @@ Raspberry Pi. Publications on ORCID.
 Wet apple wood, which you are not supposed to use - the workshop smelled of
 apples for days. Printed clay, embroidery, resin, and whatever comes next.
 {{< /facet >}}
-{{< facet title="Teaching & Supervision" href="/research/teaching-and-supervision/" >}}
+{{< facet title="Teaching & Supervision" href="/career/teaching-and-supervision/" >}}
 22 supervised theses, projects and seminars, the UNIKAT makerspace,
 CyberMentor, and workshops I wrote so nobody has to start from zero.
 {{< /facet >}}

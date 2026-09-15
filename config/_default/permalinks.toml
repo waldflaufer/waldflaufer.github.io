@@ -1,7 +1,7 @@
 # URL-Form pro Bereich.
 #
-# research, playground und inspiration brauchen keine Regel - Hugo baut daraus
-# von selbst /research/<ordnername>/ usw. Der Ordnername ist also die URL:
+# career, playground und inspiration brauchen keine Regel - Hugo baut daraus
+# von selbst /career/<ordnername>/ usw. Der Ordnername ist also die URL:
 # ein Projekt umbenennen heisst, den Ordner umbenennen.
 #
 # "page" enthaelt nur noch die technischen Seiten (Archiv, Suche); die sollen

@@ -55,7 +55,7 @@ contemporary dance, which turns out to help the skating more than I expected.
 * PhD in Industrial Image Processing, TU Ilmenau, defended 14 August 2026
 * Key Projects: FPGA stereo vision, autonomous robot calibration, transparent object detection with AI
 
-More on all of that, including awards and training, on the [Career](/research/) page.
+More on all of that, including awards and training, on the [Career](/career/) page.
 
 
 <figure>

@@ -1,6 +1,6 @@
 ---
 title: Building a Tenor Ukulele
-description: Built with two professional violin makers looking over my shoulder. Hand tools, a scraper, and a CO₂ laser.
+description: Built the traditional way with two professional violin makers looking over my shoulder.
 date: 2025-10-15 00:00:00+0000
 image: cover.jpg
 draft: false

@@ -11,7 +11,6 @@ categories:
     - Laser Cutting
 tags:
     - project
-weight: 8       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 ## Motivation

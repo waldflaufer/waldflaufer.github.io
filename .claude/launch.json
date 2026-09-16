@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hugo",
+      "runtimeExecutable": "C:/Users/chris/Dokumente/Blog_waldflaufer/waldflaufer.github.io/hugo_extended/hugo.exe",
+      "runtimeArgs": ["server", "-D", "--port", "1313"],
+      "port": 1313
+    }
+  ]
+}

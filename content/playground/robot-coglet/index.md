@@ -11,7 +11,6 @@ categories:
     - Perception
 tags:
     - project
-weight: 12
 ---
 
 ## Animatronic Eye Mechanism: My New Robot Obsession

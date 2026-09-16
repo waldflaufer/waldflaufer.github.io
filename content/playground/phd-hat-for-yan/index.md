@@ -10,7 +10,6 @@ categories:
     - Electronics
 tags:
     - project
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 Big congratulations to my colleague Dr. Yan Zhang!  

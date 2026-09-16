@@ -9,7 +9,6 @@ categories:
     - Pattern Drafting
 tags:
     - project
-weight: 4
 ---
 
 ## Story

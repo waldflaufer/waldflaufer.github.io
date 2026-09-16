@@ -8,7 +8,6 @@ categories:
     - Woodturning
 tags:
     - project
-weight: 10
 ---
 
 ## Story

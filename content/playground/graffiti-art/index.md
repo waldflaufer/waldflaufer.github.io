@@ -9,7 +9,6 @@ categories:
 tags:
     - event
     - workshop
-weight: 12
 ---
 
 ## Trying something new

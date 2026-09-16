@@ -38,7 +38,9 @@ things from it:
 
 I like learning new things, and I do not stop at reading about them. Technical books, open-source projects, a lot of video, a lot of trying it myself, and talking to people who already know more.
 
-What ends up in the chest is not books. It is methods: a way to glue without clamps, a drop test for clay consistency, a calibration routine, a lasered line where a chisel would be slower. Each project adds a few. And the fuller the chest, the more often two things connect that do not belong to the same field. That is what I am good at, and it is why I keep filling it.
+What ends up in the chest is not books, and not finished results either. It is methods, experience, techniques, mistakes, and the mental models that tie them together. And just as much, the failed batches and wrong turns that got me there.
+
+Nothing stays in its own drawer. The point of the chest is not to collect but to connect. The question behind my PhD, how precise a measurement has to be before you can trust it, first came up in brain tractography and in measuring a pulse from video. It came back at a clay printer, where I ended up doing a drop test to calibrate the material. A 3D scanner from the lab produced the model for one of the ceramic pieces. And a motion sensor in a mentoring project for two thirteen-year-olds turned into a conversation about thermal cameras, which is where my own work lives. The fuller the chest, the more often two things meet that do not belong to the same field. That is what I am good at, and it is why I keep filling it.
 
 ## What drives me
 

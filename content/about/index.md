@@ -50,7 +50,7 @@ contemporary dance, which turns out to help the skating more than I expected.
 
 ### Professional Background
 
-* Bachelor and Master Degree in Biomedical Engineering, TU Ilmenau, Germany
+* Bachelor's and Master's degrees in Biomedical Engineering, TU Ilmenau, Germany
 * Research Fellow, TU Ilmenau, 2017–2025
 * PhD in Industrial Image Processing, TU Ilmenau, defended 14 August 2026
 * Key Projects: FPGA stereo vision, autonomous robot calibration, transparent object detection with AI
@@ -70,20 +70,11 @@ More on all of that, including awards and training, on the [Career](/career/) pa
 * [CyberMentor](https://www.cybermentor.de/), mentoring for schoolgirls in STEM
 * [UNIKAT](https://unikat-ilmenau.de/wiki/), the makerspace at TU Ilmenau: active member, organisation, own workshops and introductory courses
 
-<!--
-  NOCH OFFEN:
-  - CyberMentor: bitte kurz bestaetigen, dass die Beschreibung stimmt.
-  - UNIKAT: du wolltest die Workshops noch genauer beschreiben.
-  - Contemporary: du hast mir geschrieben, wie schoen die Truppe ist - lustig,
-    freundlich, und der Koerper freut sich. Das war "nur fuer mich" gesagt,
-    deshalb steht es nicht auf der Seite. Sag Bescheid, wenn es rein darf -
-    es ist genau die Art Satz, die eine Seite menschlich macht.
--->
 
 ## Why "Waldflaufer"?
 
-The name „Waldflaufer” came about in a completely unexpected way! While creating my character in _Path of Exile_ (PoE), I was in a rush and wanted to pick the class „Waldläufer” (ranger) for my elf archer, inspired by my love for running through the woods and the fresh scent of wood. But in my haste, I accidentally typed „Waldflaufer” instead.
+The name is a typo. I was setting up a character in _Path of Exile_, an elf archer, and wanted the ranger class, which is called "Waldläufer" in German: someone who runs through the woods. I was in a hurry and typed "Waldflaufer" instead.
 
-When my friend saw it, he laughed and said, "What’s a Waldflaufer?" – by the way, special shoutout to Peggy, Martin, and Vinzenz (my gaming group at the time)! And somehow, the name stuck. It perfectly captured my occasional runs through the forest (which help me clear my mind) and my joy in being surrounded by nature and the scent of wood.
+A friend saw it and asked what a Waldflaufer was. Nobody knew, and the name stuck. Greetings to Peggy, Martin, Vinzenz and Julian, my gaming group at the time.
 
-**Now, „Waldflaufer” has become more than just a typo; it’s a name that reflects my connection to the outdoors, a bit of adventure, and the unexpected moments that make life interesting.**
+It fits better than the correct word would have. I do run through the forest now and then, mostly to clear my head, and I like the smell of wood more than most people. A typo that turned out to be accurate.

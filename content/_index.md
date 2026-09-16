@@ -1,5 +1,6 @@
 ---
-title: "Home"
+title: "Christina Junger"
+description: "Christina Junger, PhD in industrial image processing at TU Ilmenau. Stereo vision, calibration, and things built by hand."
 date: 2026-01-31
 ---
 

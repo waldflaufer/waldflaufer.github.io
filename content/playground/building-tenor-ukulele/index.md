@@ -25,7 +25,7 @@ The build itself is traditional throughout: hand planes, scrapers, fretsaw and w
 This is a side project. Alexandra and Pascal are violin makers. I asked whether I could build a tenor ukulele under their guidance, and they said yes. Their workshop is in Lichtenhain an der Bergbahn, in the Thuringian Forest. Whenever I have time, I drive there and carry on where I left off.
 
 ![Lichtenhain at the mountain railway](bergbahn1.jpg)
-![Lichtenhain at the mountain railway](bergbahn2.jpg)
+![Mountain railway at night](bergbahn2.jpg)
 
 What follows is a selection of steps, not the full process. More details will come as I go.
 

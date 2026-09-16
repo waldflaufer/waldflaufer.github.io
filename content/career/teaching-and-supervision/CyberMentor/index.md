@@ -2,6 +2,7 @@
 title: "CyberMentor"
 description: "Mentoring two thirteen-year-olds through a book nook build: 3D printing, an ESP32, a motion sensor, and the physics behind it."
 date: 2024-04-01
+dateLabel: "since April 2024"
 layout: "record"
 ---
 

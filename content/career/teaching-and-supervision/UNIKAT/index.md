@@ -2,6 +2,7 @@
 title: "UNIKAT"
 description: "Executive committee member and teaching assignment since 2017."
 date: 2017-02-01
+dateLabel: "since February 2017"
 image: "logo.jpg"
 layout: "record"
 ---

@@ -2,6 +2,7 @@
 title: "Supervision of Students"
 description: "Master's theses, project seminars and seminars at TU Ilmenau, 2017–2025."
 date: 2025-12-31
+dateLabel: "2017–2025"
 layout: "record"
 ---
 

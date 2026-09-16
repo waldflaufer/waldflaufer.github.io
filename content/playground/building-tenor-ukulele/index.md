@@ -90,7 +90,7 @@ To give the headstock a bit of elegance, I worked black veneer into it here as w
 ![Neck](hals2.jpg)
 ![Neck](hals3.jpg)
 ![Neck](hals4.jpg)
-![Headstock, top view](Kopf.jpg)
+![Headstock, top view](kopf.jpg)
 
 ### Back
 

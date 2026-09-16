@@ -9,7 +9,6 @@ categories:
     - Programming
 tags:
     - project
-weight: 11       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 ## Where it started

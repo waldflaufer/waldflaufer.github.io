@@ -3,7 +3,7 @@ title: "Home"
 date: 2026-01-31
 ---
 
-# Welcome to Waldflaufer’s World!
+# Christina Junger, also known as Waldflaufer
 
 {{< roles >}}I turn curiosity into Things  |  Researcher · Maker · Mentor · Musician{{< /roles >}}
 

@@ -26,15 +26,10 @@ Check out the brilliant work by **Will Cogley** and his open-source project:
 I even backed the original [Kickstarter projekt](https://www.kickstarter.com/projects/willcogley/coglet-open-source-3d-printable-robot-companion-kit?lang=de). I’m already excited to see how this will fit into my next robot build. -> [GitHub: Coglet](https://github.com/will-cogley/Coglet)
 
 So… what’s next?
-I’ve got big plans for this little eye system — why I’m modifying it, how I’ll integrate it with vision, and what kind of robot it’s going to live in. Stay tuned — the full story is coming soon!
-
-
+I’ve got big plans for this little eye system — why I’m modifying it, how I’ll integrate it with vision, and what kind of robot it’s going to live in.
 ## Animatronic Eye Demo
 
-<video width="640" controls>
-  <source src="animatronic-eye-mechanism.mp4" type="video/mp4">
-  Your browser does not support the video element.
-</video>
+{{< video src="animatronic-eye-mechanism.mp4" >}}
 
 > _Note: The gear on the front motor is slipping, which prevents smooth eye movement (gaze). I’ll be fixing that — stay tuned for the upgrade!_
 

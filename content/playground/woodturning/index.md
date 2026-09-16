@@ -35,10 +35,7 @@ For my first attempt, I turned a small mushroom from the fresh apple wood.
 
 It was mostly about getting a feel for the lathe, the tools, and the material, and seeing what would happen when I simply started turning.
 
-<video width="640" controls>
-  <source src="woodturning.mp4" type="video/mp4">
-  Your browser does not support the video element.
-</video>
+{{< video src="woodturning.mp4" >}}
 
 ## More to come
 

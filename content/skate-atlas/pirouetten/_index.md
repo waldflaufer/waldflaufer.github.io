@@ -12,10 +12,12 @@ Alle Pirouetten, die ich bisher gelernt habe... [in Arbeit]
 Anfangs durfte ich auch mal das Off-Ice-Harness inklusive Drehscheibe ausprobieren (24. Juni 2022). Mit einem Off-Ice-Harness lassen sich die Pirouettenposition und die Drehung üben, ohne aufs Eis zu müssen.
 Danach war mir allerdings ganz schön schlecht.
 
-<video muted loop playsinline controls preload="metadata" width="640">
-  <source src="trockenTraining-07-02-2026.mp4" type="video/mp4">
-  Dein Browser kann dieses Video nicht abspielen.
-</video>
+<div class="video-wrapper">
+  <video muted loop playsinline controls preload="metadata">
+    <source src="trockenTraining-07-02-2026.mp4" type="video/mp4">
+    Dein Browser kann dieses Video nicht abspielen.
+  </video>
+</div>
 
 <!--
   muted  = spielt stumm ab

@@ -30,9 +30,7 @@ The viscosity must be carefully adjusted:
 ![Preparing the ceramic material](step-01-material-2.jpg)
 ![Preparing the ceramic material](step-01-material-3.jpg)
 
-<video width="640" controls>
-  <source src="preprocess-porcelain.mp4" type="video/mp4">
-</video>
+{{< video src="preprocess-porcelain.mp4" >}}
 
 ## 2. Reproducibility check (for step 1)
 
@@ -111,9 +109,7 @@ After successful calibration, the final model can be printed. The printed object
 ![Printing](step-05-print-5.jpg)
 ![Printing](step-05-print-6.jpg)
 
-<video width="640" controls>
-  <source src="printing_v2.mp4" type="video/mp4">
-</video>
+{{< video src="printing_v2.mp4" >}}
 
 ## 6. Drying and post-processing
 

@@ -83,4 +83,4 @@ CyberMentor, and workshops I wrote so nobody has to start from zero.
 
 ## Get in touch
 
-If any of this overlaps with what you are working on, whether it is a measurement problem, a talk, a workshop, or something you are building yourself, I would like to hear from you. The quickest ways is [LinkedIn](https://www.linkedin.com/in/christina-junger-3a4563237/).
+If any of this overlaps with what you are working on, whether it is a measurement problem, a talk, a workshop, or something you are building yourself, I would like to hear from you. The quickest way is [LinkedIn](https://www.linkedin.com/in/christina-junger-3a4563237/).

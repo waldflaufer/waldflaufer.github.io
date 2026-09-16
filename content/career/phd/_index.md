@@ -62,8 +62,6 @@ industrial image processing
 Hardware along the way: FPGA, Jetson Nano, Raspberry Pi and the
 Arduino MKR Vidor 4000.
 
-Publications are listed on **[ORCID](https://orcid.org/0000-0002-5310-495X)**.
-
 
 ## Talks and posters, 2018–2025
 

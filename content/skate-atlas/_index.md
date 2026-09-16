@@ -4,8 +4,6 @@ description: "Was ich beim Eiskunstlauf lerne: Technik, Fehler, Rhythmus, Laufbi
 date: 2026-08-23
 ---
 
-Was ich beim Eiskunstlauf lerne: Technik, Fehler, Rhythmus, Laufbild.
-
 Eiskunstlauf ist Ausdauer, Dehnung, Ausdruck, Physik, Rhythmus und Tanz gleichzeitig. Selten verlangt etwas so viele Dinge auf einmal. Nur bleibt auf dem Eis nicht alles hängen, was einem gesagt wird. Man bekommt etwas erklärt, denkt sich: klingt logisch, und vergisst beim Ausführen die Hälfte. Also habe ich angefangen mitzuschreiben: Tipps, Fehler, Laufbilder, Skizzen von der Bahn. Zunächst auf Papier, jetzt hier.
 
 Sich selbst aufzunehmen hilft ebenfalls. Auf dem Video sieht man sofort die schlechte Haltung oder die nicht ganz gestreckten Beine.

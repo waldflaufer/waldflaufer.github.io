@@ -1,0 +1,23 @@
+{{/*
+    Unterschied zum Theme-Partial: der Site-Name wird an jeden Seitentitel
+    angehaengt (ausser auf der Startseite, wo beide gleich sind), damit
+    jede Unterseite im Browser-Tab und bei Google den Namen traegt.
+*/}}
+{{- $pageTitle := .Title -}}
+{{- $siteTitle := .Site.Title -}}
+{{- $paginator := partial "helper/paginator.html" . -}}
+
+{{- $title := slice -}}
+
+{{- if and $paginator $paginator.HasPrev -}}
+    <!-- Add page number-->
+    {{ $title = $title | append (printf "Page %d" $paginator.PageNumber) }}
+{{- end -}}
+
+{{- if and $pageTitle (ne $pageTitle $siteTitle) -}}
+    {{- $title = $title | append $pageTitle -}}
+{{- end -}}
+
+{{- $title = $title | append $siteTitle -}}
+
+{{ return delimit $title " | " }}

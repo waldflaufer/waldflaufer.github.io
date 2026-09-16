@@ -24,6 +24,8 @@ Big congratulations to my colleague Dr. Yan Zhang!
 - Screws (for assembly)
 - String / cord (for finger movement)
 
+![Lighting](lighting,jpg)
+![Hand](Hand.jpg)
 
 ![The finished hat: a tendon-driven robotic hand, a calibration target and a lot of Club-Mate.](hat.jpg)
 

@@ -61,7 +61,7 @@ project months later.
 ![Herakut at the Straat Museum, Amsterdam.](straat-museum.jpg) ![Some of the art and anatomy books I keep coming back to.](inspiration-books.jpg) ![I'm a huge fan of great reference books.](inspiration-books2.jpg)
 
 And the name? It started as a typo. The
-[whole story](/about/#why-waldflaufer) is on the About Me page.
+[whole story](/about/#why-waldflaufer) is on the [About Me](/about/) page.
 
 Now that you know the person, here is where each part of this actually lives:
 

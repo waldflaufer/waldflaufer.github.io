@@ -82,6 +82,15 @@ CyberMentor, and workshops I wrote so nobody has to start from zero.
 {{< /facet >}}
 {{< /facets >}}
 
+
+## What comes next
+
+My PhD asked how precise a measurement has to be before a robot can work next to a person. The next question is the same one, moved into a room where the stakes are higher: how do you measure the exchange between a child and a partner, with a stated uncertainty, when the child cannot tell you how it went? Video-based assessment scores the child. I want to measure the interaction, and I want to know how far to trust the number.
+
+That is the direction I am building towards. Where it happens is open: a research position, an R&D role in industry, or a start-up of my own. The proposals I am writing now all point at it.
+
+The robot side of it starts on my own bench. I am rebuilding Coglet, an open-hardware companion robot, as an embodied interaction partner for experiments. The same build works for crafting sessions with children. A MicroDuck from Pollen Robotics is on pre-order, a small open-source biped whose behaviours are trained in simulation and transferred to the real robot. That is the part of the toolbox I have not opened yet.
+
 ## Get in touch
 
 If any of this overlaps with what you are working on, whether it is a measurement problem, a talk, a workshop, or something you are building yourself, I would like to hear from you. The quickest way is [LinkedIn](https://www.linkedin.com/in/christina-junger-3a4563237/).

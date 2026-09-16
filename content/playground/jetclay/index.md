@@ -60,10 +60,12 @@ A calibrated glass sphere is dropped from a defined height onto a rolled-out pla
 Before generating the print file, the printer must first be made ready:
 
 1. **Start and initialize the printer**
-   a. Establish the connection between the PC and the printer
-   b. Home all axes and ensure the printer is properly aligned
-   c. Adjust the Z-axis / print height according to the material and nozzle requirements
-   d. Run a test print to observe material flow and adjust print parameters during the process
+
+    - Establish the connection between the PC and the printer
+    - Home all axes and ensure the printer is properly aligned
+    - Adjust the Z-axis / print height according to the material and nozzle requirements
+    - Run a test print to observe material flow and adjust print parameters during the process
+
 2. **Set and test print parameters**
    Adjust settings such as extrusion rate, layer height, and speed specifically for the prepared ceramic paste. Use the test print results to fine-tune the parameters before printing the final model.
 

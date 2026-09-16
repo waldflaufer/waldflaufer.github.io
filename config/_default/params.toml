@@ -41,9 +41,8 @@ SortBy              = "default"
     ]
     page = [{ type = "toc" }]
 
-#[opengraph.twitter]
-#    site = ""
-#    card = "summary_large_image"
+[opengraph.twitter]
+    card = "summary_large_image"
 
 [colorScheme]
     toggle  = true

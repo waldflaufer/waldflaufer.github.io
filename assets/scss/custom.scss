@@ -39,24 +39,23 @@
 
 
 /* ---------------------------------------------------------------------------
-   Bilderreihen als Masonry (CSS-Columns)
+   Bilderreihen als gleichmaessiges Raster (Standard, alle Beitraege)
 
    Stack baut Bilderreihen sonst "justiert": die Breite jedes Bildes haengt vom
    Seitenverhaeltnis ab. Ein Hochformat wird dadurch zum schmalen Streifen, und
    auf schmalen Bildschirmen quetschen sich die Bilder ineinander.
 
-   Ein gleichmaessiges Quadrat-Raster (object-fit: cover) loest das, schneidet
-   dabei aber Bilder zu - bei Zeichnungen/Kunstwerken schneidet das im
-   schlimmsten Fall Teile der eigentlichen Komposition ab (Kopf, Fuesse, ...).
+   Stattdessen: gleich grosse Kacheln, die automatisch umbrechen.
+   auto-fit heisst - so viele Spalten wie passen, mindestens 160px breit.
 
-   Deshalb stattdessen Masonry: jede Spalte ist gleich breit (min. 200px),
-   jedes Bild behaelt sein eigenes Seitenverhaeltnis - unterschiedlich hohe
-   Kacheln statt Zuschnitt.
+   Ausnahme: der Drawing-Beitrag (siehe Block "Masonry statt Raster" weiter
+   unten) - dort schneidet der Quadrat-Zuschnitt echten Zeichnungen Teile der
+   Komposition ab, das waere schlimmer als die uneinheitlichen Kachelhoehen.
    --------------------------------------------------------------------------- */
 .article-content .gallery {
-    display: block;
-    columns: 200px;
-    column-gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
 
     /* Stack laesst Bilderreihen bis an den Kartenrand laufen:
        margin links/rechts negativ, dafuer width = 100% + 2x card-padding.
@@ -66,8 +65,12 @@
     width: calc(100% + var(--card-padding) * 2);
 
     figure {
-        margin: 0 0 12px;
-        break-inside: avoid;   /* Bild nicht ueber zwei Spalten hinweg trennen */
+        margin: 0;
+        min-width: 0;
+        /* Stack gibt jedem <figure> einen Negativ-Rand und
+           width: calc(100% + card-padding*2), damit Einzelbilder ueber den
+           Kartenrand ragen. Im Raster laesst das jedes Bild aus seiner Zelle
+           laufen - hier also zuruecknehmen. */
         width: 100%;
     }
 
@@ -78,7 +81,9 @@
     }
 
     img {
-        height: auto;   /* eigenes Seitenverhaeltnis, kein Zuschnitt */
+        aspect-ratio: 1 / 1;   /* einheitliche Kacheln ... */
+        object-fit: cover;     /* ... Bild wird beschnitten, nicht verzerrt */
+        height: auto;
         border-radius: var(--card-border-radius, 8px);
     }
 
@@ -86,6 +91,41 @@
         margin-top: 6px;
         font-size: 0.85em;
         text-align: center;
+    }
+}
+
+/* Steht nur ein einzelnes Bild in der Reihe, ergibt der Quadrat-Zuschnitt
+   keinen Sinn - dann das Bild in seinem eigenen Seitenverhaeltnis zeigen. */
+.article-content .gallery figure:only-child img {
+    aspect-ratio: auto;
+    object-fit: contain;
+    width: auto;
+    max-width: 100%;
+    max-height: 70vh;
+    margin-inline: auto;
+}
+
+/* ---------------------------------------------------------------------------
+   Masonry statt Raster - nur fuer den Drawing-Beitrag
+
+   .drawing kommt vom body-class-Block in layouts/_default/single.html: der
+   Ordnername des Beitrags (hier "drawing") landet dort als Klasse am body.
+   Ueberschreibt die Quadrat-Kacheln von oben komplett.
+   --------------------------------------------------------------------------- */
+body.drawing .article-content .gallery {
+    display: block;
+    columns: 200px;
+    column-gap: 12px;
+
+    figure {
+        margin: 0 0 12px;
+        break-inside: avoid;   /* Bild nicht ueber zwei Spalten hinweg trennen */
+    }
+
+    img {
+        aspect-ratio: auto;
+        object-fit: unset;
+        height: auto;   /* eigenes Seitenverhaeltnis, kein Zuschnitt */
     }
 }
 

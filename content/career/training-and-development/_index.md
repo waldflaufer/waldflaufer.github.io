@@ -120,7 +120,7 @@ really well. Getting to know the other participants was enriching too.
 > the practical checklist (figures and tables, accessible language, SMART
 > objectives, and the rest).
 
-<img src="logo/sunrise-tuil.png" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">**Upcoming, 21-25 September 2026:** the 1st SUNRISE PhD & Young Researchers
+<img src="logo/sunrise-tuil.png" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:0.6em;">** 21-25 September 2026:** the 1st SUNRISE PhD & Young Researchers
 Academy, a one-week Erasmus+ Blended Intensive Programme at European
 University Cyprus, together with TU Ilmenau and the other SUNRISE Alliance
 partner universities. Research proposal writing, entrepreneurial pitching,

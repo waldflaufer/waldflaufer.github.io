@@ -94,6 +94,10 @@ At this point, a heartfelt thank you for the opportunity, and to Matthieu Py
 & Paolo Simonelli, who ran the workshop with a lot of humour and did it
 really well. Getting to know the other participants was enriching too.
 
+<img src="inira-grant/inria-workshop-paris.jpg" alt="Participants of the MSCA Postdoctoral Fellowship grant-writing workshop at Inria Paris, seated at tables with laptops, with remote participants on two screens in the background." style="width:100%;max-width:600px;height:auto;display:block;margin:0 auto;">
+
+<p style="margin-top:0.8em;margin-bottom:1.4em;font-size:0.92em;opacity:0.72;line-height:1.5;text-align:center;">The MSCA grant-writing workshop at Inria Paris, June 2026.</p>
+
 > **My key takeaways**
 > 1. Academic writing and grant writing are two different things - a grant
 >    proposal has to sell the work, not just report it
@@ -125,6 +129,10 @@ Academy, a one-week Erasmus+ Blended Intensive Programme at European
 University Cyprus, together with TU Ilmenau and the other SUNRISE Alliance
 partner universities. Research proposal writing, entrepreneurial pitching,
 and a lot of networking.
+
+<img src="SUNRIS-EUC/postersession-BIP.jpeg" alt="Christina Junger standing next to her research poster 'How do you know a therapy session went well, if the child cannot tell you?' at the poster session of the SUNRISE Academy at European University Cyprus." style="width:100%;max-width:360px;height:auto;display:block;margin:0 auto;">
+
+<p style="margin-top:0.8em;margin-bottom:1.4em;font-size:0.92em;opacity:0.72;line-height:1.5;text-align:center;">With my poster at the poster session, European University Cyprus, September 2026.</p>
 
 ## Communicating science
 

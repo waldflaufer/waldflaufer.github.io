@@ -1,0 +1,20 @@
+{{/*
+    Vorlage fuer die Klavier-Roadmap (content/inspiration/piano-roadmap/).
+    Der Inhalt ist fertiges HTML mit eigener Gestaltung. Das Stylesheet
+    (assets/roadmap.css) gilt nur innerhalb von .roadmap, damit es das Theme
+    nicht beeinflusst. Hell/Dunkel folgt dem Schalter des Themes (data-scheme).
+*/}}
+
+{{ define "body-class" }}article-page roadmap-page{{ end }}
+
+{{ define "main" }}
+    {{ with resources.Get "roadmap.css" | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+    {{ end }}
+    <article class="main-article roadmap-article">
+        {{ .Content }}
+    </article>
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}{{ end }}

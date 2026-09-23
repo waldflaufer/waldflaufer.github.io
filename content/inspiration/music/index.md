@@ -27,6 +27,8 @@ So, whether you want to learn to play, improve your skills, discover a new instr
 
 ## Piano
 
+**My learning path:** [Piano Chord Roadmap](/inspiration/music/piano-roadmap/) (also in [Deutsch](/inspiration/music/piano-roadmap/de/) and [Français](/inspiration/music/piano-roadmap/fr/))
+
 - [Pianote](https://www.youtube.com/@PianoteOfficial)
   - [You're Not Too Old To Learn Piano (Science Says So)](https://youtu.be/tzDKJR4pzF0?is=uoBJk8CPU9MFATgZ)
   - [5 Pentatonic Licks Your Teacher Never Taught You ft. Jemma Heigis](https://www.youtube.com/watch?v=LfqX64fP1go)

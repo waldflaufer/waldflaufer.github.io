@@ -50,3 +50,15 @@ Bonus: Evan is French, and I've only just started learning French (really beginn
 
 - [Birds Piano Academy](https://www.youtube.com/@BirdsPianoAcademy)
   - [If someone asks you to play something... play this](https://www.youtube.com/watch?v=oxcKAiR5rPo)
+
+## Singing
+
+I love singing on my own, and I've come across such wonderful, inspiring people on YouTube that I'd like to pass them on.
+
+- [Cheryl Porter Vocal Coach](https://www.youtube.com/@CherylPorterVocalCoach)
+  - [10 Minute Daily VOCAL WORKOUT! Vocal Exercise (subtitles)](https://www.youtube.com/watch?v=1XHXezdnL0A)
+  - [Vocal Coach teaches how to Blend Registers to Filipino Singer](https://www.youtube.com/shorts/3FHdDODu50k)
+
+- [Singeo](https://www.youtube.com/@SingeoOfficial)
+  - [The BEST Vocal Warm-Up For Singers - Better Singing in 10 Minutes](https://www.youtube.com/watch?v=Plm0T4xQWFw)
+  - [How to Sing Harmonies for Beginners](https://www.youtube.com/watch?v=-xBjXfquTUA)

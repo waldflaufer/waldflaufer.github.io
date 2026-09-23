@@ -27,6 +27,12 @@ So, whether you want to learn to play, improve your skills, discover a new instr
 
 ## Piano
 
+### Why I wrote a piano roadmap
+
+At a dinner during the 1st SUNRISE PhD & Young Researchers Academy at European University Cyprus (September 2026), I talked with Evan, a PhD student from UTC Compiègne, about work, hobbies, France… and music. He told me he wanted to start learning piano. We agreed to meet at the piano in the EUC cafeteria the next day, and I decided to write down the path I wish I'd had.
+
+It's built for adult beginners like us. We may not have a child's fingers, but we have something else: we can understand *why* a chord works, spot patterns, and practise with a plan. That lets adults move surprisingly fast, if the steps come in the right order.
+
 **My learning path:** [Piano Chord Roadmap](/inspiration/music/piano-roadmap/) (also in [Deutsch](/inspiration/music/piano-roadmap/de/) and [Français](/inspiration/music/piano-roadmap/fr/))
 
 - [Pianote](https://www.youtube.com/@PianoteOfficial)

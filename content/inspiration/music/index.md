@@ -47,3 +47,6 @@ Bonus: Evan is French, and I've only just started learning French (really beginn
 
 - [The Keys Coach](https://www.youtube.com/@thekeyscoach)
   - [3 Rhythm Patterns That Bring ANY Song To Life](https://www.youtube.com/watch?v=RfRd_j3zfDg)
+
+- [Birds Piano Academy](https://www.youtube.com/@BirdsPianoAcademy)
+  - [If someone asks you to play something... play this](https://www.youtube.com/watch?v=oxcKAiR5rPo)

@@ -33,6 +33,8 @@ At a dinner during the 1st SUNRISE PhD & Young Researchers Academy at European U
 
 It's built for adult beginners like us. We may not have a child's fingers, but we have something else: we can understand *why* a chord works, spot patterns, and practise with a plan. That lets adults move surprisingly fast, if the steps come in the right order.
 
+Bonus: Evan is French, and I'm learning French, so our piano sessions double as language practice. That's also why the roadmap comes in French.
+
 **My learning path:** [Piano Chord Roadmap](/inspiration/music/piano-roadmap/) (also in [Deutsch](/inspiration/music/piano-roadmap/de/) and [Français](/inspiration/music/piano-roadmap/fr/))
 
 - [Pianote](https://www.youtube.com/@PianoteOfficial)

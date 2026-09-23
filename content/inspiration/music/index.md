@@ -21,10 +21,8 @@ I have always loved music, but over the years, I have come to appreciate just ho
 
 There is peaceful music, uplifting music, emotional music, epic music… music for concentrating, relaxing, dreaming, creating, or simply enjoying the moment. Sometimes, you don't even need words. The right music can say exactly what you feel.
 
-And music doesn't only have to be something we listen to. It can also be something we learn and create ourselves.
-
-That's why I've started collecting some wonderful YouTube channels and resources for learning music and instruments — from piano lessons to violin, and eventually other instruments as well.
-
+And music doesn't only have to be something we listen to. It can also be something we learn and create ourselves. <br>
+That's why I've started collecting some wonderful YouTube channels and resources for learning music and instruments — from piano lessons to violin, and eventually other instruments as well. <br>
 So, whether you want to learn to play, improve your skills, discover a new instrument, or simply explore the world of music, here are some channels and resources worth exploring.
 
 ## Piano

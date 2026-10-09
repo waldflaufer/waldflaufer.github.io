@@ -125,6 +125,3 @@ sofern beim einzelnen Beitrag nichts anderes steht.
 Die Datei `LICENSE` stammt aus dem Starter-Template und lautet auf
 *MIT © Jimmy Cai* — sie gilt für das Template, nicht für meine Inhalte.
 Das Theme selbst steht unter GPL-3.0.
-
-> Noch zu entscheiden: ob die eigene Konfiguration und die eigenen Layouts
-> unter eine eigene Lizenz gestellt werden.

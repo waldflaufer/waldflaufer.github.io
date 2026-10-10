@@ -100,5 +100,5 @@ Publications are on [ORCID](https://orcid.org/0000-0002-5310-495X). What is not 
 
 ## Poster (2026)
 
-- How do you know a therapy session went well, if the child cannot tell you? Blended Intensive Programme (BIP) – 1st SUNRIS PhD & Yound Researcher Academy, European University of Cyprus, Nicosia, Cyprus, 23. September 20206.
+- How do you know a therapy session went well, if the child cannot tell you? Blended Intensive Programme (BIP) – 1st SUNRISE PhD & Young Researcher Academy, European University of Cyprus, Nicosia, Cyprus, 23. September 2026.
 
